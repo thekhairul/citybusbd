@@ -1,0 +1,94 @@
+{
+    "A-424": [
+        {
+            "routeId": "A-424",
+            "stopage_en": "Signboard",
+            "stopage_bn": "সাইনবোর্ড",
+            "kiloFromZero": 0.0
+        },
+        {
+            "routeId": "A-424",
+            "stopage_en": "Jatrabari",
+            "stopage_bn": "যাত্রাবাড়ী",
+            "kiloFromZero": 5.0
+        },
+        {
+            "routeId": "A-424",
+            "stopage_en": "Sayedabad",
+            "stopage_bn": "সায়েদাবাদ",
+            "kiloFromZero": 6.0
+        },
+        {
+            "routeId": "A-424",
+            "stopage_en": "Maniknagar",
+            "stopage_bn": "মানিকনগর",
+            "kiloFromZero": 7.4
+        },
+        {
+            "routeId": "A-424",
+            "stopage_en": "Basabo",
+            "stopage_bn": "বাসাবো",
+            "kiloFromZero": 9.4
+        },
+        {
+            "routeId": "A-424",
+            "stopage_en": "Malibag",
+            "stopage_bn": "মালিবাগ",
+            "kiloFromZero": 11.1
+        },
+        {
+            "routeId": "A-424",
+            "stopage_en": "Rampura",
+            "stopage_bn": "রামপুরা",
+            "kiloFromZero": 13.5
+        },
+        {
+            "routeId": "A-424",
+            "stopage_en": "Badda",
+            "stopage_bn": "বাড্ডা",
+            "kiloFromZero": 15.3
+        },
+        {
+            "routeId": "A-424",
+            "stopage_en": "Notun Bazar",
+            "stopage_bn": "নতুন বাজার",
+            "kiloFromZero": 17.4
+        },
+        {
+            "routeId": "A-424",
+            "stopage_en": "Kuril Bishwaroad",
+            "stopage_bn": "কুড়িল বিশ্বারোড",
+            "kiloFromZero": 20.0
+        },
+        {
+            "routeId": "A-424",
+            "stopage_en": "Khilkhet",
+            "stopage_bn": "খিলক্ষেত",
+            "kiloFromZero": 21.0
+        },
+        {
+            "routeId": "A-424",
+            "stopage_en": "Airport",
+            "stopage_bn": "এয়ারপোর্ট",
+            "kiloFromZero": 23.8
+        },
+        {
+            "routeId": "A-424",
+            "stopage_en": "Abdullahpur",
+            "stopage_bn": "আব্দুল্লাহপুর",
+            "kiloFromZero": 27.5
+        },
+        {
+            "routeId": "A-424",
+            "stopage_en": "Kamarpara",
+            "stopage_bn": "কামারপারা",
+            "kiloFromZero": 29.7
+        },
+        {
+            "routeId": "A-424",
+            "stopage_en": "Dhour",
+            "stopage_bn": "ধউর",
+            "kiloFromZero": 33.0
+        }
+    ]
+}
