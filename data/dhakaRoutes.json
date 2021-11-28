@@ -1,94 +1,154 @@
-{
-    "A-424": [
-        {
-            "routeId": "A-424",
-            "stopage_en": "Signboard",
-            "stopage_bn": "সাইনবোর্ড",
-            "kiloFromZero": 0.0
-        },
-        {
-            "routeId": "A-424",
-            "stopage_en": "Jatrabari",
-            "stopage_bn": "যাত্রাবাড়ী",
-            "kiloFromZero": 5.0
-        },
-        {
-            "routeId": "A-424",
-            "stopage_en": "Sayedabad",
-            "stopage_bn": "সায়েদাবাদ",
-            "kiloFromZero": 6.0
-        },
-        {
-            "routeId": "A-424",
-            "stopage_en": "Maniknagar",
-            "stopage_bn": "মানিকনগর",
-            "kiloFromZero": 7.4
-        },
-        {
-            "routeId": "A-424",
-            "stopage_en": "Basabo",
-            "stopage_bn": "বাসাবো",
-            "kiloFromZero": 9.4
-        },
-        {
-            "routeId": "A-424",
-            "stopage_en": "Malibag",
-            "stopage_bn": "মালিবাগ",
-            "kiloFromZero": 11.1
-        },
-        {
-            "routeId": "A-424",
-            "stopage_en": "Rampura",
-            "stopage_bn": "রামপুরা",
-            "kiloFromZero": 13.5
-        },
-        {
-            "routeId": "A-424",
-            "stopage_en": "Badda",
-            "stopage_bn": "বাড্ডা",
-            "kiloFromZero": 15.3
-        },
-        {
-            "routeId": "A-424",
-            "stopage_en": "Notun Bazar",
-            "stopage_bn": "নতুন বাজার",
-            "kiloFromZero": 17.4
-        },
-        {
-            "routeId": "A-424",
-            "stopage_en": "Kuril Bishwaroad",
-            "stopage_bn": "কুড়িল বিশ্বারোড",
-            "kiloFromZero": 20.0
-        },
-        {
-            "routeId": "A-424",
-            "stopage_en": "Khilkhet",
-            "stopage_bn": "খিলক্ষেত",
-            "kiloFromZero": 21.0
-        },
-        {
-            "routeId": "A-424",
-            "stopage_en": "Airport",
-            "stopage_bn": "এয়ারপোর্ট",
-            "kiloFromZero": 23.8
-        },
-        {
-            "routeId": "A-424",
-            "stopage_en": "Abdullahpur",
-            "stopage_bn": "আব্দুল্লাহপুর",
-            "kiloFromZero": 27.5
-        },
-        {
-            "routeId": "A-424",
-            "stopage_en": "Kamarpara",
-            "stopage_bn": "কামারপারা",
-            "kiloFromZero": 29.7
-        },
-        {
-            "routeId": "A-424",
-            "stopage_en": "Dhour",
-            "stopage_bn": "ধউর",
-            "kiloFromZero": 33.0
-        }
-    ]
-}
+[
+    {
+        "id" : "A-424",
+        "buses" : [],
+        "stops" : [
+            {
+                "stop_en": "Signboard",
+                "stop_bn": "সাইনবোর্ড",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Jatrabari",
+                "stop_bn": "যাত্রাবাড়ী",
+                "kiloFromZero": 5.0
+            },
+            {
+                "stop_en": "Sayedabad",
+                "stop_bn": "সায়েদাবাদ",
+                "kiloFromZero": 6.0
+            },
+            {
+                "stop_en": "Maniknagar",
+                "stop_bn": "মানিকনগর",
+                "kiloFromZero": 7.4
+            },
+            {
+                "stop_en": "Basabo",
+                "stop_bn": "বাসাবো",
+                "kiloFromZero": 9.4
+            },
+            {
+                "stop_en": "Malibag",
+                "stop_bn": "মালিবাগ",
+                "kiloFromZero": 11.1
+            },
+            {
+                "stop_en": "Rampura",
+                "stop_bn": "রামপুরা",
+                "kiloFromZero": 13.5
+            },
+            {
+                "stop_en": "Badda",
+                "stop_bn": "বাড্ডা",
+                "kiloFromZero": 15.3
+            },
+            {
+                "stop_en": "Notun Bazar",
+                "stop_bn": "নতুন বাজার",
+                "kiloFromZero": 17.4
+            },
+            {
+                "stop_en": "Kuril Bishwaroad",
+                "stop_bn": "কুড়িল বিশ্বারোড",
+                "kiloFromZero": 20.0
+            },
+            {
+                "stop_en": "Khilkhet",
+                "stop_bn": "খিলক্ষেত",
+                "kiloFromZero": 21.0
+            },
+            {
+                "stop_en": "Airport",
+                "stop_bn": "এয়ারপোর্ট",
+                "kiloFromZero": 23.8
+            },
+            {
+                "stop_en": "Abdullahpur",
+                "stop_bn": "আব্দুল্লাহপুর",
+                "kiloFromZero": 27.5
+            },
+            {
+                "stop_en": "Kamarpara",
+                "stop_bn": "কামারপারা",
+                "kiloFromZero": 29.7
+            },
+            {
+                "stop_en": "Dhour",
+                "stop_bn": "ধউর",
+                "kiloFromZero": 33.0
+            }
+        ]
+    },
+    {
+        "id" : "A-436",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Sadarghat Victoria Park",
+                "stop_bn": "সদরঘাট ভিক্টোরিয়া পার্ক",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Bongobondhu Aveneue",
+                "stop_bn": "বঙ্গবন্ধু এভিনিউ",
+                "kiloFromZero": 2.6
+            },
+            {
+                "stop_en": "Kakrail",
+                "stop_bn": "কাকরাইল",
+                "kiloFromZero": 4.0
+            },
+            {
+                "stop_en": "Malibag",
+                "stop_bn": "মালিবাগ",
+                "kiloFromZero": 4.7
+            },
+            {
+                "stop_en": "Mouchak",
+                "stop_bn": "মৌচাক",
+                "kiloFromZero": 5.1
+            },
+            {
+                "stop_en": "Rampura",
+                "stop_bn": "রামপুরা",
+                "kiloFromZero": 7.9
+            },
+            {
+                "stop_en": "Kuril Bishwaroad",
+                "stop_bn": "কুড়িল বিশ্বারোড",
+                "kiloFromZero": 14.0
+            },
+            {
+                "stop_en": "Airport",
+                "stop_bn": "এয়ারপোর্ট",
+                "kiloFromZero": 18.6
+            },
+            {
+                "stop_en": "Abdullahpur",
+                "stop_bn": "আব্দুল্লাহপুর",
+                "kiloFromZero": 22.1
+            },
+            {
+                "stop_en": "Dhour",
+                "stop_bn": "ধউর",
+                "kiloFromZero": 27.7
+            },
+            {
+                "stop_en": "Jirabo",
+                "stop_bn": "জিরাবো",
+                "kiloFromZero": 33.0
+            },
+            {
+                "stop_en": "Ashulia (Fantasy Kingdom)",
+                "stop_bn": "আশুলিয়া (ফ্যান্টাসি কিংডম)",
+                "kiloFromZero": 37.3
+            },
+            {
+                "stop_en": "Baipail",
+                "stop_bn": "বাইপাইল",
+                "kiloFromZero": 39.8
+            }
+        ]
+    }
+]
