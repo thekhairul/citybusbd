@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     currentRoute.stops.forEach(({stop_en, stop_bn}) => {
       if(!stopMap.has(stop_en)) {
         stopMap.set(stop_en, true);
-        result.push({stop_en, stop_bn});
+        result.push({label: stop_en, value: `${stop_en}|${stop_bn}`});
       }
     })
     return result;
