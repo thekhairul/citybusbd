@@ -1,5 +1,174 @@
 [
     {
+        "id" : "A-222",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Mirpur-12",
+                "stop_bn": "মিরপুর-১২",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Mirpur-10",
+                "stop_bn": "মিরপুর-১০",
+                "kiloFromZero": 2.6
+            },
+            {
+                "stop_en": "Farmgate",
+                "stop_bn": "ফার্মগেট",
+                "kiloFromZero": 9.0
+            },
+            {
+                "stop_en": "Notredem College",
+                "stop_bn": "নটরডেম কলেজ",
+                "kiloFromZero": 17.0
+            }
+        ]
+    },
+    {
+        "id" : "A-222",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Pollobi",
+                "stop_bn": "পল্লবী",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Mirpur-11",
+                "stop_bn": "মিরপুর-১১",
+                "kiloFromZero": 2.4
+            },
+            {
+                "stop_en": "Mirpur-10",
+                "stop_bn": "মিরপুর-১০",
+                "kiloFromZero": 3.3
+            },
+            {
+                "stop_en": "Mirpur-1",
+                "stop_bn": "মিরপুর-১",
+                "kiloFromZero": 5.2
+            },
+            {
+                "stop_en": "Ansar Camp",
+                "stop_bn": "আনসার ক্যাম্প",
+                "kiloFromZero": 6.1
+            },
+            {
+                "stop_en": "Newmarket",
+                "stop_bn": "নিউমার্কেট",
+                "kiloFromZero": 14.8
+            },
+            {
+                "stop_en": "Etimkhana",
+                "stop_bn": "এতিমখানা",
+                "kiloFromZero": 15.1
+            },
+            {
+                "stop_en": "Dhakeshwari Mondir",
+                "stop_bn": "ঢাকেশ্বারী মন্দির",
+                "kiloFromZero": 15.5
+            }
+        ]
+    },
+    {
+        "id" : "A-222",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Fulbaria",
+                "stop_bn": "ফুলবাড়িয়া",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Kakrail",
+                "stop_bn": "কাকরাইল",
+                "kiloFromZero": 2.0
+            },
+            {
+                "stop_en": "Mogbazar",
+                "stop_bn": "মগবাজার",
+                "kiloFromZero": 4.2
+            },
+            {
+                "stop_en": "Mohakhali",
+                "stop_bn": "মহাখালী",
+                "kiloFromZero": 9.4
+            },
+            {
+                "stop_en": "Kakoli",
+                "stop_bn": "কাকলি",
+                "kiloFromZero": 11.1
+            },
+            {
+                "stop_en": "Airport",
+                "stop_bn": "এয়ারপোর্ট",
+                "kiloFromZero": 19.8
+            },
+            {
+                "stop_en": "Tongi",
+                "stop_bn": "টঙ্গী",
+                "kiloFromZero": 25.0
+            },
+            {
+                "stop_en": "Gajipur Chourasta",
+                "stop_bn": "গাজীপুর চৌরাস্তা",
+                "kiloFromZero": 36.5
+            },
+            {
+                "stop_en": "Gajipur",
+                "stop_bn": "গাজীপুর",
+                "kiloFromZero": 41.5
+            }
+        ]
+    },
+    {
+        "id" : "A-207",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Tongi",
+                "stop_bn": "টঙ্গী",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Ajompur",
+                "stop_bn": "আজমপুর",
+                "kiloFromZero": 7.4
+            },
+            {
+                "stop_en": "Mohakhali",
+                "stop_bn": "মহাখালী",
+                "kiloFromZero": 19.0
+            },
+            {
+                "stop_en": "Farmgate",
+                "stop_bn": "ফার্মগেট",
+                "kiloFromZero": 21.5
+            },
+            {
+                "stop_en": "Manik Mia Aveneue",
+                "stop_bn": "মানিক মিয়া এভিনিউ",
+                "kiloFromZero": 23.3
+            },
+            {
+                "stop_en": "City College",
+                "stop_bn": "সিটি কলেজ",
+                "kiloFromZero": 25.4
+            },
+            {
+                "stop_en": "Nilkhet",
+                "stop_bn": "নীলক্ষেত",
+                "kiloFromZero": 26.5
+            },
+            {
+                "stop_en": "Dhakeshwari Etim Khana",
+                "stop_bn": "ঢাকেশ্বারী এতিম খানা",
+                "kiloFromZero": 28.0
+            }
+        ]
+    },
+    {
         "id" : "A-424",
         "buses" : [],
         "stops" : [

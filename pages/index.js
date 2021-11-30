@@ -2,11 +2,13 @@ import { Box, Button, Container } from '@chakra-ui/react';
 import Head from 'next/head';
 import { useState } from 'react';
 import Select from 'react-select';
+import NoResults from '../components/NoResults';
+import Results from '../components/Results';
 
 export default function Home({stops}) {
   const [fromValue, setFromValue] = useState(null);
   const [toValue, setToValue] = useState(null);
-  const [matchedRoutes, setMatchedRoutes] = useState(null);
+  const [matchedRoutes, setMatchedRoutes] = useState([]);
   const stopOptions = stops.sort((x,y) => x.label.localeCompare(y.label));
 
   const handleFromValue = e => {
@@ -16,6 +18,7 @@ export default function Home({stops}) {
     setToValue(e.value.split('|')[0])
   }
   const handleSearch = async () => {
+    if (!fromValue || !toValue) return;
     const res = await fetch('http://localhost:3000/api/matchedRoutes', {
       method: 'POST',
       headers: {
@@ -42,7 +45,8 @@ export default function Home({stops}) {
         <Box mt={6} />
         <Select options={stopOptions} placeholder="To" onChange={handleToValue}/>
         <Box mt={6} />
-        <Button colorScheme='blue' onClick={handleSearch}>Search</Button>
+        <Button colorScheme='purple' onClick={handleSearch}>Search</Button>
+        {matchedRoutes.length ? <Results matchedRoutes={matchedRoutes}/> : <NoResults />}
       </Container>
 
     </div>
