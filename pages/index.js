@@ -1,8 +1,11 @@
-import { Box, Button, Container } from '@chakra-ui/react';
+import { Box, Button, Container, Icon } from '@chakra-ui/react';
 import Head from 'next/head';
 import { useState } from 'react';
-import Select from 'react-select';
+import { HiLocationMarker } from 'react-icons/hi';
+import { IoMdLocate } from 'react-icons/io';
+import { RiRouteLine } from 'react-icons/ri';
 import NoResults from '../components/NoResults';
+import ReactSelect from '../components/ReactSelect';
 import Results from '../components/Results';
 
 export default function Home({stops}) {
@@ -40,11 +43,19 @@ export default function Home({stops}) {
       </Head>
 
       <Container maxW='container.md'>
-        <Select options={stopOptions} placeholder="From" onChange={handleFromValue}/>
-        <Box mt={6} />
-        <Select options={stopOptions} placeholder="To" onChange={handleToValue}/>
-        <Box mt={6} />
-        <Button colorScheme='purple' onClick={handleSearch}>Search</Button>
+        <Box display='flex' alignItems='center' mb={6}>
+          <Icon as={IoMdLocate} fontSize={22} ml={-7} mr={2} color='purple.500'/>
+          <Box flex='1'>
+            <ReactSelect options={stopOptions} placeholder="From" onChange={handleFromValue}/>
+          </Box>
+        </Box>
+        <Box display='flex' alignItems='center' mb={6}>
+          <Icon as={HiLocationMarker} fontSize={22} ml={-7} mr={2} color='purple.500'/>
+          <Box flex='1'>
+            <ReactSelect options={stopOptions} placeholder="To" onChange={handleToValue}/>
+          </Box>
+        </Box>
+        <Button colorScheme='purple' width='full' leftIcon={<RiRouteLine/>} onClick={handleSearch}>Search Routes</Button>
         {matchedRoutes.length ? <Results matchedRoutes={matchedRoutes}/> : <NoResults />}
       </Container>
 

@@ -13,6 +13,7 @@ body {
   min-height: 100vh !important;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-left: 1rem;
 }
 body::after {
   content: "";
