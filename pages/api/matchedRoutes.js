@@ -21,7 +21,7 @@ export default async function handler(req, res) {
       matchedRoutes.push({
         route: route.id,
         buses: route.buses,
-        price: price < 10 ? 10 : price,
+        price: price > 0 && price < 10 ? 10 : price,
         distance: distance.toPrecision(2),
         stops: route.stops.map(({stop_en}) => stop_en)
       })
