@@ -1,6 +1,62 @@
 [
     {
-        "id" : "A-222",
+        "id" : "A-106",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Mirpur-12",
+                "stop_bn": "মিরপুর-১২",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Boikali Hotel",
+                "stop_bn": "বৈকালী হোটেল",
+                "kiloFromZero": 0.7
+            },
+            {
+                "stop_en": "Mirpur-11",
+                "stop_bn": "মিরপুর-১১",
+                "kiloFromZero": 1.4
+            },
+            {
+                "stop_en": "Mirpur-10",
+                "stop_bn": "মিরপুর-১০",
+                "kiloFromZero": 2.3
+            },
+            {
+                "stop_en": "Nilkhet",
+                "stop_bn": "নীলক্ষেত",
+                "kiloFromZero": 13.7
+            },
+            {
+                "stop_en": "Ajimpur",
+                "stop_bn": "আজিমপুর",
+                "kiloFromZero": 14.2
+            },
+            {
+                "stop_en": "Polashi",
+                "stop_bn": "পলাশী",
+                "kiloFromZero": 14.6
+            },
+            {
+                "stop_en": "Katabon",
+                "stop_bn": "কাঁটাবন",
+                "kiloFromZero": 15.0
+            },
+            {
+                "stop_en": "Jatrabari",
+                "stop_bn": "যাত্রাবাড়ী",
+                "kiloFromZero": 24.4
+            },
+            {
+                "stop_en": "Narayanganj Link Road",
+                "stop_bn": "নারায়ণগঞ্জ লিংক রোড",
+                "kiloFromZero": 29.6
+            }
+        ]
+    },
+    {
+        "id" : "A-123",
         "buses": [],
         "stops": [
             {
@@ -22,6 +78,149 @@
                 "stop_en": "Notredem College",
                 "stop_bn": "নটরডেম কলেজ",
                 "kiloFromZero": 17.0
+            }
+        ]
+    },
+    {
+        "id" : "A-137",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Sayedabad",
+                "stop_bn": "সায়েদাবাদ",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Bangladesh Bank",
+                "stop_bn": "বাংলাদেশ ব্যাংক",
+                "kiloFromZero": 2.3
+            },
+            {
+                "stop_en": "UBL",
+                "stop_bn": "ইউবিএল",
+                "kiloFromZero": 3.4
+            },
+            {
+                "stop_en": "Press Club",
+                "stop_bn": "প্রেস ক্লাব",
+                "kiloFromZero": 4.0
+            },
+            {
+                "stop_en": "Shahbag",
+                "stop_bn": "শাহবাগ",
+                "kiloFromZero": 5.2
+            },
+            {
+                "stop_en": "Farmgate",
+                "stop_bn": "ফার্মগেট",
+                "kiloFromZero": 7.5
+            },
+            {
+                "stop_en": "Balughat",
+                "stop_bn": "বালুঘাট",
+                "kiloFromZero": 14.6
+            }
+        ]
+    },
+    {
+        "id" : "A-138",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Uttara (Raniganj)",
+                "stop_bn": "উত্তরা (রানীগঞ্জ)",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Notun Bazar",
+                "stop_bn": "নতুন বাজার",
+                "kiloFromZero": 11.8
+            },
+            {
+                "stop_en": "Rampura TV Center",
+                "stop_bn": "রামপুরা টিভি সেন্টার",
+                "kiloFromZero": 15.2
+            },
+            {
+                "stop_en": "Malibag",
+                "stop_bn": "মালিবাগ",
+                "kiloFromZero": 18.5
+            },
+            {
+                "stop_en": "Kakrail",
+                "stop_bn": "কাকরাইল",
+                "kiloFromZero": 19.3
+            },
+            {
+                "stop_en": "Bangabondhu Aveneue",
+                "stop_bn": "বঙ্গবন্ধু এভিনিউ",
+                "kiloFromZero": 21.0
+            },
+            {
+                "stop_en": "Victoria Park",
+                "stop_bn": "ভিক্টোরিয়া পার্ক",
+                "kiloFromZero": 23.3
+            }
+        ]
+    },
+    {
+        "id" : "A-221",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Fulbaria",
+                "stop_bn": "ফুলবাড়িয়া",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Mogbazar",
+                "stop_bn": "মগবাজার",
+                "kiloFromZero": 4.2
+            },
+            {
+                "stop_en": "Mohakhali",
+                "stop_bn": "মহাখালী",
+                "kiloFromZero": 9.4
+            },
+            {
+                "stop_en": "Banani",
+                "stop_bn": "বনানী",
+                "kiloFromZero": 11.1
+            },
+            {
+                "stop_en": "Airport",
+                "stop_bn": "এয়ারপোর্ট",
+                "kiloFromZero": 19.8
+            },
+            {
+                "stop_en": "Tongi",
+                "stop_bn": "টঙ্গী",
+                "kiloFromZero": 25.0
+            },
+            {
+                "stop_en": "Joydebpur Chourasta",
+                "stop_bn": "জয়দেবপুর চৌরাস্তা",
+                "kiloFromZero": 36.5
+            },
+            {
+                "stop_en": "Konabari",
+                "stop_bn": "কোনাবাড়ী",
+                "kiloFromZero": 43.8
+            },
+            {
+                "stop_en": "Sofipur",
+                "stop_bn": "শফিপুর",
+                "kiloFromZero": 48.6
+            },
+            {
+                "stop_en": "Chondra",
+                "stop_bn": "চন্দ্রা",
+                "kiloFromZero": 53.1
+            },
+            {
+                "stop_en": "Kaliakoir",
+                "stop_bn": "কালিয়াকৈর",
+                "kiloFromZero": 57.8
             }
         ]
     },

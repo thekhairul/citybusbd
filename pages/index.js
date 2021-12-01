@@ -40,7 +40,6 @@ export default function Home({stops}) {
       </Head>
 
       <Container maxW='container.md'>
-        <Box mt={6} />
         <Select options={stopOptions} placeholder="From" onChange={handleFromValue}/>
         <Box mt={6} />
         <Select options={stopOptions} placeholder="To" onChange={handleToValue}/>

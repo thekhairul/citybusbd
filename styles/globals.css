@@ -4,10 +4,22 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
   background-image: url('/citybus.jpg') !important;
   background-repeat: no-repeat !important;
-  background-position: bottom right !important;
+  background-size: cover !important;
   min-height: 100vh !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+body::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgb(255 255 255 / 48%);
+  z-index: -1;
 }
 
 a {
