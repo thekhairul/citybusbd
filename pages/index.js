@@ -43,7 +43,7 @@ export default function Home({stops}) {
       </Head>
 
       <Container maxW='container.md'>
-        <Box display='flex' alignItems='center' mb={6}>
+        <Box className='citybus-from' display='flex' alignItems='center' mb={6}>
           <Icon as={IoMdLocate} fontSize={22} ml={-7} mr={2} color='purple.500'/>
           <Box flex='1'>
             <ReactSelect options={stopOptions} placeholder="From" onChange={handleFromValue}/>

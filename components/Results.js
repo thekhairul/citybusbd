@@ -1,6 +1,7 @@
 import {
-    Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Text
+    Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Icon, Text
 } from '@chakra-ui/react';
+import { RiArrowLeftRightLine } from 'react-icons/ri';
 
 function Results({matchedRoutes}) {
     return (
@@ -30,9 +31,14 @@ function Results({matchedRoutes}) {
                             </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
-                            <Box display='flex' flexWrap='wrap' rounded='lg' overflow='hidden'>
+                            <Box display='flex' flexWrap='wrap'>
                                 {route.stops.map((stop,idx) => {
-                                    return <Box flexGrow='1' p={2} bg='purple.500' color='white' rounded='lg' border='2px solid' key={idx}>{stop}</Box>
+                                    return (
+                                        <Box display='flex' alignItems='center' key={idx}>
+                                            <Text p={2} mt={1} mb={1} bg='gray.100' rounded='md' fontSize='sm'>{stop}</Text>
+                                            {idx === route.stops.length - 1 ? null : <Icon as={RiArrowLeftRightLine} m={2}/>}
+                                        </Box>
+                                    )
                                 })}
                             </Box>
                         </AccordionPanel>

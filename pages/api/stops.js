@@ -1,3 +1,4 @@
+// TODO: make seperate stops map to avoid duplication and human error
 const { join, resolve } = require("path");
 const { readFileSync } = require("fs");
 
