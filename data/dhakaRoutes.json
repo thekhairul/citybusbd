@@ -1,6 +1,6 @@
 [
     {
-        "id" : "A-106",
+        "id": "A-106",
         "buses": [],
         "stops": [
             {
@@ -56,7 +56,7 @@
         ]
     },
     {
-        "id" : "A-123",
+        "id": "A-123",
         "buses": [],
         "stops": [
             {
@@ -82,7 +82,58 @@
         ]
     },
     {
-        "id" : "A-137",
+        "id": "A-131",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Mirpur Zoo",
+                "stop_bn": "মিরপুর চিড়িয়াখানা",
+                "kiloFromZero": 0
+            },
+            {
+                "stop_en": "Mirpur-1",
+                "stop_bn": "মিরপুর-১",
+                "kiloFromZero": 1.8
+            },
+            {
+                "stop_en": "Dar us Salam",
+                "stop_bn": "দারুসসালাম",
+                "kiloFromZero": 3.8
+            },
+            {
+                "stop_en": "Shyamoli",
+                "stop_bn": "শ্যামলী",
+                "kiloFromZero": 5.4
+            },
+            {
+                "stop_en": "Asad Gate",
+                "stop_bn": "আসাদগেট",
+                "kiloFromZero": 7.2
+            },
+            {
+                "stop_en": "Farmgate",
+                "stop_bn": "ফার্মগেট",
+                "kiloFromZero": 9
+            },
+            {
+                "stop_en": "Press Club",
+                "stop_bn": "প্রেসক্লাব",
+                "kiloFromZero": 12.6
+            },
+            {
+                "stop_en": "Gulistan",
+                "stop_bn": "গুলিস্তান",
+                "kiloFromZero": 13.7
+            },
+            {
+                "stop_en": "Victoria Park",
+                "stop_bn": "ভিক্টোরিয়া পার্ক",
+                "kiloFromZero": 16
+            }
+        ]
+    },
+    {
+        "id": "A-137",
         "buses": [],
         "stops": [
             {
@@ -123,7 +174,7 @@
         ]
     },
     {
-        "id" : "A-138",
+        "id": "A-138",
         "buses": [],
         "stops": [
             {
@@ -164,7 +215,7 @@
         ]
     },
     {
-        "id" : "A-221",
+        "id": "A-221",
         "buses": [],
         "stops": [
             {
@@ -225,7 +276,7 @@
         ]
     },
     {
-        "id" : "A-222",
+        "id": "A-222",
         "buses": [],
         "stops": [
             {
@@ -271,7 +322,7 @@
         ]
     },
     {
-        "id" : "A-222",
+        "id": "A-222",
         "buses": [],
         "stops": [
             {
@@ -322,7 +373,7 @@
         ]
     },
     {
-        "id" : "A-207",
+        "id": "A-207",
         "buses": [],
         "stops": [
             {
@@ -368,9 +419,560 @@
         ]
     },
     {
-        "id" : "A-424",
-        "buses" : [],
-        "stops" : [
+        "id": "A-225",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Sayedabad",
+                "stop_bn": "সায়েদাবাদ",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Malibag",
+                "stop_bn": "মালিবাগ",
+                "kiloFromZero": 4.0
+            },
+            {
+                "stop_en": "Satrasta",
+                "stop_bn": "সাতরাস্তা",
+                "kiloFromZero": 8.0
+            },
+            {
+                "stop_en": "Mohakhali",
+                "stop_bn": "মহাখালী",
+                "kiloFromZero": 12.0
+            },
+            {
+                "stop_en": "Airport",
+                "stop_bn": "এয়ারপোর্ট",
+                "kiloFromZero": 20.0
+            },
+            {
+                "stop_en": "Tongibazar",
+                "stop_bn": "টঙ্গী বাজার",
+                "kiloFromZero": 24.0
+            },
+            {
+                "stop_en": "Cherag Ali",
+                "stop_bn": "চেরাগ আলী",
+                "kiloFromZero": 27.0
+            },
+            {
+                "stop_en": "Board Bazar",
+                "stop_bn": "বোর্ড বাজার",
+                "kiloFromZero": 31.0
+            },
+            {
+                "stop_en": "Gajipur Chourasta",
+                "stop_bn": "গাজীপুর চৌরাস্তা",
+                "kiloFromZero": 37.0
+            },
+            {
+                "stop_en": "Gajipur",
+                "stop_bn": "গাজীপুর",
+                "kiloFromZero": 42.0
+            }
+        ]
+    },
+    {
+        "id": "A-229",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Sayedabad",
+                "stop_bn": "সায়েদাবাদ",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Jatrabari",
+                "stop_bn": "যাত্রাবাড়ী",
+                "kiloFromZero": 0.8
+            },
+            {
+                "stop_en": "Postogola",
+                "stop_bn": "পোস্তগোলা",
+                "kiloFromZero": 3.1
+            },
+            {
+                "stop_en": "Shampur",
+                "stop_bn": "শ্যামপুর",
+                "kiloFromZero": 3.8
+            },
+            {
+                "stop_en": "Pagla",
+                "stop_bn": "পাগলা",
+                "kiloFromZero": 6.8
+            },
+            {
+                "stop_en": "Ponchoboti",
+                "stop_bn": "পঞ্চবটী",
+                "kiloFromZero": 10.4
+            },
+            {
+                "stop_en": "Narayanganj",
+                "stop_bn": "নারায়ণগঞ্জ",
+                "kiloFromZero": 15.0
+            }
+        ]
+    },
+    {
+        "id": "A-235",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Sayedabad",
+                "stop_bn": "সায়েদাবাদ",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Jatrabari",
+                "stop_bn": "যাত্রাবাড়ী",
+                "kiloFromZero": 0.8
+            },
+            {
+                "stop_en": "Shonir Akhra",
+                "stop_bn": "শনির আখড়া",
+                "kiloFromZero": 2.6
+            },
+            {
+                "stop_en": "Rayerbag",
+                "stop_bn": "রায়েরবাগ",
+                "kiloFromZero": 3.5
+            },
+            {
+                "stop_en": "Link Road",
+                "stop_bn": "লিংক রোড",
+                "kiloFromZero": 6.0
+            },
+            {
+                "stop_en": "Narayongonj",
+                "stop_bn": "নারায়ণগঞ্জ",
+                "kiloFromZero": 16.2
+            }
+        ]
+    },
+    {
+        "id": "A-255",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Sayedabad",
+                "stop_bn": "সায়েদাবাদ",
+                "kiloFromZero": 0
+            },
+            {
+                "stop_en": "Jatrabari",
+                "stop_bn": "যাত্রাবাড়ী",
+                "kiloFromZero": 1.1
+            },
+            {
+                "stop_en": "Kachpur",
+                "stop_bn": "কাঁচপুর",
+                "kiloFromZero": 10.3
+            },
+            {
+                "stop_en": "Modonpur",
+                "stop_bn": "মদনপুর",
+                "kiloFromZero": 13.9
+            },
+            {
+                "stop_en": "Mogra Para",
+                "stop_bn": "মোগড়া পারা",
+                "kiloFromZero": 21.7
+            },
+            {
+                "stop_en": "Meghna Ghat",
+                "stop_bn": "মেঘনা ঘাট",
+                "kiloFromZero": 25.9
+            }
+        ]
+    },
+    {
+        "id": "A-256",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Chankharpul",
+                "stop_bn": "চানখারপূল",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Gulistan",
+                "stop_bn": "গুলিস্তান",
+                "kiloFromZero": 2.0
+            },
+            {
+                "stop_en": "Jatrabari",
+                "stop_bn": "যাত্রাবাড়ী",
+                "kiloFromZero": 5.4
+            },
+            {
+                "stop_en": "Kachpur",
+                "stop_bn": "কাঁচপুর",
+                "kiloFromZero": 14.8
+            },
+            {
+                "stop_en": "Modonpur",
+                "stop_bn": "মদনপুর",
+                "kiloFromZero": 18.0
+            },
+            {
+                "stop_en": "Sonargaon Mogra Para",
+                "stop_bn": "সোনারগাঁও মোগরা পাড়া",
+                "kiloFromZero": 25.8
+            },
+            {
+                "stop_en": "Meghna Ghat",
+                "stop_bn": "মেঘনা ঘাট",
+                "kiloFromZero": 29.3
+            }
+        ]
+    },
+    {
+        "id": "A-260",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Fulbaria",
+                "stop_bn": "ফুলবাড়িয়া",
+                "kiloFromZero": 0
+            },
+            {
+                "stop_en": "Chankharpul",
+                "stop_bn": "চানখারপুল",
+                "kiloFromZero": 1.5
+            },
+            {
+                "stop_en": "Ajimpur",
+                "stop_bn": "আজিমপুর",
+                "kiloFromZero": 5.1
+            },
+            {
+                "stop_en": "Asad Gate",
+                "stop_bn": "আসাদ গেট",
+                "kiloFromZero": 8
+            },
+            {
+                "stop_en": "Technical",
+                "stop_bn": "টেকনিক্যাল",
+                "kiloFromZero": 11
+            },
+            {
+                "stop_en": "Gabtoli",
+                "stop_bn": "গাবতলী",
+                "kiloFromZero": 12
+            },
+            {
+                "stop_en": "Dhamrai",
+                "stop_bn": "ধামরাই",
+                "kiloFromZero": 42
+            }
+        ]
+    },
+    {
+        "id": "A-288",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Mirpur-12",
+                "stop_bn": "",
+                "kiloFromZero": 0
+            },
+            {
+                "stop_en": "Mirpur-11",
+                "stop_bn": "",
+                "kiloFromZero": 1.5
+            },
+            {
+                "stop_en": "Mirpur-10",
+                "stop_bn": "",
+                "kiloFromZero": 2.5
+            },
+            {
+                "stop_en": "Kajipara",
+                "stop_bn": "",
+                "kiloFromZero": 4.5
+            },
+            {
+                "stop_en": "Sheorapara",
+                "stop_bn": "",
+                "kiloFromZero": 5
+            },
+            {
+                "stop_en": "Farmgate",
+                "stop_bn": "",
+                "kiloFromZero": 9
+            },
+            {
+                "stop_en": "Shahbag",
+                "stop_bn": "",
+                "kiloFromZero": 11.3
+            },
+            {
+                "stop_en": "GPO",
+                "stop_bn": "",
+                "kiloFromZero": 14.5
+            },
+            {
+                "stop_en": "Hanif Flyover",
+                "stop_bn": "",
+                "kiloFromZero": 16
+            },
+            {
+                "stop_en": "Shonir Akhra",
+                "stop_bn": "",
+                "kiloFromZero": 22
+            },
+            {
+                "stop_en": "Signboard",
+                "stop_bn": "",
+                "kiloFromZero": 25.3
+            },
+            {
+                "stop_en": "Chashara Bus stand",
+                "stop_bn": "",
+                "kiloFromZero": 33.2
+            },
+            {
+                "stop_en": "Narayonganj",
+                "stop_bn": "",
+                "kiloFromZero": 35
+            }
+        ]
+    },
+    {
+        "id": "A-294",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Japan Garden City",
+                "stop_bn": "জাপান গার্ডেন সিটি",
+                "kiloFromZero": 0
+            },
+            {
+                "stop_en": "Shyamoli",
+                "stop_bn": "শ্যামলী",
+                "kiloFromZero": 1.5
+            },
+            {
+                "stop_en": "Agargaon",
+                "stop_bn": "আগারগাও",
+                "kiloFromZero": 4.1
+            },
+            {
+                "stop_en": "Mohakhali",
+                "stop_bn": "মহাখালী",
+                "kiloFromZero": 8
+            },
+            {
+                "stop_en": "Kakoli",
+                "stop_bn": "কাকলী",
+                "kiloFromZero": 9.8
+            },
+            {
+                "stop_en": "Airport",
+                "stop_bn": "এয়ারপোর্ট",
+                "kiloFromZero": 17.3
+            },
+            {
+                "stop_en": "Uttara",
+                "stop_bn": "উত্তরা",
+                "kiloFromZero": 19.5
+            },
+            {
+                "stop_en": "Dhour",
+                "stop_bn": "ধউর",
+                "kiloFromZero": 25.2
+            }
+        ]
+    },
+    {
+        "id": "A-301",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Japan Garden City",
+                "stop_bn": "জাপান গার্ডেন সিটি",
+                "kiloFromZero": 0
+            },
+            {
+                "stop_en": "Shyamoli Ring Road",
+                "stop_bn": "শ্যামলী রিং রোড",
+                "kiloFromZero": 1.5
+            },
+            {
+                "stop_en": "Agargaon",
+                "stop_bn": "আগারগাও",
+                "kiloFromZero": 3.5
+            },
+            {
+                "stop_en": "Sheorapara",
+                "stop_bn": "শ্যাওড়াপাড়া",
+                "kiloFromZero": 5.2
+            },
+            {
+                "stop_en": "Mirpur-10",
+                "stop_bn": "মিরপুর-১০",
+                "kiloFromZero": 7.1
+            },
+            {
+                "stop_en": "Kalshi",
+                "stop_bn": "কালশী",
+                "kiloFromZero": 11.8
+            },
+            {
+                "stop_en": "ECB Chottor",
+                "stop_bn": "ইসিবি চত্বর",
+                "kiloFromZero": 13.6
+            },
+            {
+                "stop_en": "Airport",
+                "stop_bn": "এয়ারপোর্ট",
+                "kiloFromZero": 20.3
+            },
+            {
+                "stop_en": "Abdullahpur",
+                "stop_bn": "আব্দুল্লাহপুর",
+                "kiloFromZero": 24
+            },
+            {
+                "stop_en": "Dhour",
+                "stop_bn": "ধউর",
+                "kiloFromZero": 29.5
+            }
+        ]
+    },
+    {
+        "id": "A-309",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Sadarghat",
+                "stop_bn": "সদরঘাট",
+                "kiloFromZero": 0
+            },
+            {
+                "stop_en": "Gulistan",
+                "stop_bn": "গুলিস্তান",
+                "kiloFromZero": 2.3
+            },
+            {
+                "stop_en": "Polton",
+                "stop_bn": "পলটন",
+                "kiloFromZero": 3
+            },
+            {
+                "stop_en": "Shahbag",
+                "stop_bn": "শাহবাগ",
+                "kiloFromZero": 5.7
+            },
+            {
+                "stop_en": "Sciencelab",
+                "stop_bn": "সাইন্সল্যাব",
+                "kiloFromZero": 7.2
+            },
+            {
+                "stop_en": "Asad Gate",
+                "stop_bn": "আসাদ গেট",
+                "kiloFromZero": 9.7
+            },
+            {
+                "stop_en": "Gabtoli",
+                "stop_bn": "গাবতলী",
+                "kiloFromZero": 13.7
+            },
+            {
+                "stop_en": "Savar",
+                "stop_bn": "সাভার",
+                "kiloFromZero": 27.2
+            },
+            {
+                "stop_en": "Noboinagar",
+                "stop_bn": "নবীনগর",
+                "kiloFromZero": 35.2
+            },
+            {
+                "stop_en": "EPZ",
+                "stop_bn": "ইপিজেড",
+                "kiloFromZero": 39.8
+            }
+        ]
+    },
+    {
+        "id": "A-310",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Mirpur Rupnagar",
+                "stop_bn": "মিরপুর রূপনগর",
+                "kiloFromZero": 0.0
+            },
+            {
+                "stop_en": "Mirpur-12",
+                "stop_bn": "মিরপুর-১২",
+                "kiloFromZero": 1.2
+            },
+            {
+                "stop_en": "Mirpur-11",
+                "stop_bn": "মিরপুর-১১",
+                "kiloFromZero": 2.6
+            },
+            {
+                "stop_en": "Mirpur-10",
+                "stop_bn": "মিরপুর-১০",
+                "kiloFromZero": 3.5
+            },
+            {
+                "stop_en": "Kajipara",
+                "stop_bn": "কাজীপাড়া",
+                "kiloFromZero": 4.9
+            },
+            {
+                "stop_en": "Sheorapara",
+                "stop_bn": "শেওরারপাড়া",
+                "kiloFromZero": 5.5
+            },
+            {
+                "stop_en": "Farmgate",
+                "stop_bn": "ফার্মগেট",
+                "kiloFromZero": 10.2
+            },
+            {
+                "stop_en": "Polton",
+                "stop_bn": "পল্টন",
+                "kiloFromZero": 14.7
+            },
+            {
+                "stop_en": "Doinik Bangla",
+                "stop_bn": "দৈনিক বাংলা",
+                "kiloFromZero": 15.5
+            },
+            {
+                "stop_en": "Shapla Chottor",
+                "stop_bn": "শাপলা চত্বর",
+                "kiloFromZero": 16.4
+            },
+            {
+                "stop_en": "Arambag",
+                "stop_bn": "আরামবাগ",
+                "kiloFromZero": 17.1
+            },
+            {
+                "stop_en": "Komolapur",
+                "stop_bn": "কমলাপুর",
+                "kiloFromZero": 17.6
+            },
+            {
+                "stop_en": "Sayedabad",
+                "stop_bn": "সায়েদাবাদ",
+                "kiloFromZero": 19.9
+            }
+        ]
+    },
+    {
+        "id": "A-424",
+        "buses": [],
+        "stops": [
             {
                 "stop_en": "Signboard",
                 "stop_bn": "সাইনবোর্ড",
@@ -449,7 +1051,7 @@
         ]
     },
     {
-        "id" : "A-436",
+        "id": "A-436",
         "buses": [],
         "stops": [
             {
