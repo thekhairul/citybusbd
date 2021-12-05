@@ -12,7 +12,7 @@ export default function Home({stops}) {
   const [fromValue, setFromValue] = useState(null);
   const [toValue, setToValue] = useState(null);
   const [matchedRoutes, setMatchedRoutes] = useState([]);
-  const stopOptions = stops.sort((x,y) => x.label.localeCompare(y.label));
+  const stopOptions = stops.sort((x,y) => x.slug.localeCompare(y.slug));
 
   const handleFromValue = e => {
     setFromValue(e.value.split('|')[0])
@@ -56,7 +56,7 @@ export default function Home({stops}) {
           </Box>
         </Box>
         <Button colorScheme='purple' width='full' leftIcon={<RiRouteLine/>} onClick={handleSearch}>Search Routes</Button>
-        {matchedRoutes.length ? <Results matchedRoutes={matchedRoutes}/> : <NoResults />}
+        {matchedRoutes.length ? <Results from={fromValue} to={toValue} matchedRoutes={matchedRoutes}/> : <NoResults />}
       </Container>
 
     </div>

@@ -31,3 +31,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.citybus-from {
+  position: relative;
+}
+.citybus-from::before {
+  content: "";
+  position: absolute;
+  left: -18px;
+  top: 32px;
+  height: 40px;
+  border: 1px dashed;
+  border-color: var(--chakra-colors-purple-500);
+}

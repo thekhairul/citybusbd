@@ -3,7 +3,7 @@ import {
 } from '@chakra-ui/react';
 import { RiArrowLeftRightLine } from 'react-icons/ri';
 
-function Results({matchedRoutes}) {
+function Results({from, to, matchedRoutes}) {
     return (
         <Accordion my={10} bg='white' rounded='lg' boxShadow='lg' allowMultiple>
             {
@@ -35,7 +35,7 @@ function Results({matchedRoutes}) {
                                 {route.stops.map((stop,idx) => {
                                     return (
                                         <Box display='flex' alignItems='center' key={idx}>
-                                            <Text p={2} mt={1} mb={1} bg='gray.100' rounded='md' fontSize='sm'>{stop}</Text>
+                                            <Text p={2} mt={1} mb={1} bg='gray.100' rounded='md' fontSize='sm' outline={stop === from || stop === to ? '2px solid' : 'none'}>{stop}</Text>
                                             {idx === route.stops.length - 1 ? null : <Icon as={RiArrowLeftRightLine} m={2}/>}
                                         </Box>
                                     )
