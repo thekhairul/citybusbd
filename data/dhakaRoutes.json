@@ -1,7 +1,13 @@
 [
     {
         "id": "A-106",
-        "buses": [],
+        "buses": [
+            "Somoy Poribahan",
+            "Shikhar Poribahan",
+            "Shikor Poribahan",
+            "Khajababa",
+            "Himachal"
+        ],
         "stops": [
             {
                 "stop_en": "Mirpur-12",
@@ -57,7 +63,11 @@
     },
     {
         "id": "A-123",
-        "buses": [],
+        "buses": [
+            "Lams Poribahan",
+            "Haji Transport",
+            "Bikolpo"
+        ],
         "stops": [
             {
                 "stop_en": "Mirpur-12",
@@ -83,7 +93,9 @@
     },
     {
         "id": "A-131",
-        "buses": [],
+        "buses": [
+            "Tanjil Poribahan"
+        ],
         "stops": [
             {
                 "stop_en": "Mirpur Zoo",
@@ -175,7 +187,10 @@
     },
     {
         "id": "A-138",
-        "buses": [],
+        "buses": [
+            "Suprovat Poribahan",
+            "Victor Classic"
+        ],
         "stops": [
             {
                 "stop_en": "Uttara (Raniganj)",
@@ -216,7 +231,9 @@
     },
     {
         "id": "A-221",
-        "buses": [],
+        "buses": [
+            "Provati Banasree"
+        ],
         "stops": [
             {
                 "stop_en": "Fulbaria",
@@ -276,8 +293,10 @@
         ]
     },
     {
-        "id": "A-222",
-        "buses": [],
+        "id": "A-176",
+        "buses": [
+            "Bikolpo City Super"
+        ],
         "stops": [
             {
                 "stop_en": "Pollobi",
@@ -323,7 +342,9 @@
     },
     {
         "id": "A-222",
-        "buses": [],
+        "buses": [
+            "Provati Banasree"
+        ],
         "stops": [
             {
                 "stop_en": "Fulbaria",
@@ -374,7 +395,10 @@
     },
     {
         "id": "A-207",
-        "buses": [],
+        "buses": [
+            "BRTC",
+            "Dhaka Poribahan"
+        ],
         "stops": [
             {
                 "stop_en": "Tongi",

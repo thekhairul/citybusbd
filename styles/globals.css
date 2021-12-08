@@ -44,3 +44,16 @@ a {
   border: 1px dashed;
   border-color: var(--chakra-colors-purple-500);
 }
+.citybus-fieldset {
+  border: 2px solid var(--chakra-colors-purple-500);
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+.citybus-legend {
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+  background: white;
+  color: var(--chakra-colors-purple-500);
+  outline: 2px solid;
+}
