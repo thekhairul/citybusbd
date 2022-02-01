@@ -1,5 +1,5 @@
 import {
-    Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Icon, Text
+  Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Icon, Text
 } from '@chakra-ui/react';
 import { RiArrowLeftRightLine } from 'react-icons/ri';
 

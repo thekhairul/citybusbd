@@ -1,5 +1,162 @@
 [
     {
+        "id": "A-102",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Pallabi (Mirpur 12)",
+                "stop_bn": "পল্লবী (মিরপুর-১২)",
+                "kiloFromZero": 0
+            },
+            {
+                "stop_en": "Mirpur-11.5",
+                "stop_bn": "মিরপুর-১১.৫",
+                "kiloFromZero": 0.4
+            },
+            {
+                "stop_en": "Boikali Hotel",
+                "stop_bn": "বৈকালি হোটেল",
+                "kiloFromZero": 0.7
+            },
+            {
+                "stop_en": "Mirpur-11",
+                "stop_bn": "মিরপুর-১১",
+                "kiloFromZero": 1.4
+            },
+            {
+                "stop_en": "Mirpur-10",
+                "stop_bn": "মিরপুর-১০",
+                "kiloFromZero": 2.3
+            },
+            {
+                "stop_en": "Kajipara",
+                "stop_bn": "কাজিপাড়া",
+                "kiloFromZero": 3.7
+            },
+            {
+                "stop_en": "Farmgate",
+                "stop_bn": "ফার্মগেট",
+                "kiloFromZero": 9
+            },
+            {
+                "stop_en": "Press Club",
+                "stop_bn": "প্রেস ক্লাব",
+                "kiloFromZero": 13.2
+            },
+            {
+                "stop_en": "TnT",
+                "stop_bn": "টিএন্ডটি",
+                "kiloFromZero": 14.7
+            },
+            {
+                "stop_en": "Rayshaheb Bazar",
+                "stop_bn": "রায়সাহেব বাজার",
+                "kiloFromZero": 15.7
+            },
+            {
+                "stop_en": "Victoria Park",
+                "stop_bn": "ভিক্টোরিয়া পার্ক",
+                "kiloFromZero": 16.9
+            }
+        ]
+    },
+    {
+        "id": "A-104",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Pallabi",
+                "stop_bn": "পল্লবী",
+                "kiloFromZero": 0
+            },
+            {
+                "stop_en": "Mirpur-11",
+                "stop_bn": "মিরপুর-১১",
+                "kiloFromZero": 1.4
+            },
+            {
+                "stop_en": "Mirpur-10",
+                "stop_bn": "মিরপুর-১০",
+                "kiloFromZero": 2.3
+            },
+            {
+                "stop_en": "Mirpur-2",
+                "stop_bn": "মিরপুর-২",
+                "kiloFromZero": 2.9
+            },
+            {
+                "stop_en": "Mirpur-1",
+                "stop_bn": "মিরপুর-১",
+                "kiloFromZero": 4.2
+            },
+            {
+                "stop_en": "Ansar Camp",
+                "stop_bn": "আনসার ক্যাম্প",
+                "kiloFromZero": 5.1
+            },
+            {
+                "stop_en": "Technical",
+                "stop_bn": "টেকনিক্যাল",
+                "kiloFromZero": 6
+            },
+            {
+                "stop_en": "Shishumela",
+                "stop_bn": "শিশুমেলা",
+                "kiloFromZero": 7.6
+            },
+            {
+                "stop_en": "Asad Gate",
+                "stop_bn": "আসাদ গেট",
+                "kiloFromZero": 9.6
+            },
+            {
+                "stop_en": "Shukrabad",
+                "stop_bn": "শুক্রাবাদ",
+                "kiloFromZero": 10.3
+            },
+            {
+                "stop_en": "kolabagan",
+                "stop_bn": "কলাবাগান",
+                "kiloFromZero": 11.2
+            },
+            {
+                "stop_en": "Sciencelab",
+                "stop_bn": "সাইন্সল্যাব",
+                "kiloFromZero": 12.3
+            },
+            {
+                "stop_en": "Newmarket",
+                "stop_bn": "নিউ মার্কেট",
+                "kiloFromZero": 13.1
+            },
+            {
+                "stop_en": "Katabon",
+                "stop_bn": "কাঁটাবন",
+                "kiloFromZero": 15.7
+            },
+            {
+                "stop_en": "Shahbag",
+                "stop_bn": "শাহবাগ",
+                "kiloFromZero": 16.1
+            },
+            {
+                "stop_en": "Highcourt Mor",
+                "stop_bn": "হাইকোর্ট মোড়",
+                "kiloFromZero": 17.9
+            },
+            {
+                "stop_en": "Old Railway Hospital",
+                "stop_bn": "পুরাতন রেইলওয়ে হাসপাতাল",
+                "kiloFromZero": 18.1
+            },
+            {
+                "stop_en": "Bongobondhu Aveneue",
+                "stop_bn": "বঙ্গবন্ধু এভিনিউ",
+                "kiloFromZero": 18.7
+            }
+        ]
+    },
+    {
         "id": "A-106",
         "buses": [
             "Somoy Poribahan",
@@ -58,6 +215,158 @@
                 "stop_en": "Narayanganj Link Road",
                 "stop_bn": "নারায়ণগঞ্জ লিংক রোড",
                 "kiloFromZero": 29.6
+            }
+        ]
+    },
+    {
+        "id": "A-107",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Pallabi (Ceramic)",
+                "stop_bn": "পল্লবী (সিরামিক)",
+                "kiloFromZero": 0
+            },
+            {
+                "stop_en": "Mirpur-11.5",
+                "stop_bn": "মিরপুর-১১.৫",
+                "kiloFromZero": 0.6
+            },
+            {
+                "stop_en": "Kalshi Mor",
+                "stop_bn": "কালশি মোড়",
+                "kiloFromZero": 1
+            },
+            {
+                "stop_en": "Mirpur-11",
+                "stop_bn": "মিরপুর-১১",
+                "kiloFromZero": 1.6
+            },
+            {
+                "stop_en": "Mirpur-6 (Proshika Mor)",
+                "stop_bn": "মিরপুর-৬ (প্রশিকা)",
+                "kiloFromZero": 2.9
+            },
+            {
+                "stop_en": "Mirpur-1",
+                "stop_bn": "মিরপুর-১",
+                "kiloFromZero": 4.5
+            },
+            {
+                "stop_en": "Ansar Camp",
+                "stop_bn": "আনসার ক্যাম্প",
+                "kiloFromZero": 5.5
+            },
+            {
+                "stop_en": "Bangla College",
+                "stop_bn": "বাংলা কলেজ",
+                "kiloFromZero": 5.9
+            },
+            {
+                "stop_en": "Technical",
+                "stop_bn": "টেকনিক্যাল",
+                "kiloFromZero": 6.7
+            },
+            {
+                "stop_en": "Farmgate",
+                "stop_bn": "ফার্মগেট",
+                "kiloFromZero": 12.6
+            },
+            {
+                "stop_en": "Motijheel",
+                "stop_bn": "মতিঝিল",
+                "kiloFromZero": 19
+            },
+            {
+                "stop_en": "Jatrabari",
+                "stop_bn": "যাত্রাবাড়ী",
+                "kiloFromZero": 21.7
+            }
+        ]
+    },
+    {
+        "id": "A-120",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Kalshi",
+                "stop_bn": "কালশি",
+                "kiloFromZero": 0
+            },
+            {
+                "stop_en": "Mirpur-10",
+                "stop_bn": "মিরপুর-১০",
+                "kiloFromZero": 3
+            },
+            {
+                "stop_en": "Mirpur-1",
+                "stop_bn": "মিরপুর-১",
+                "kiloFromZero": 4.9
+            },
+            {
+                "stop_en": "Darussalam",
+                "stop_bn": "দারুসসালাম",
+                "kiloFromZero": 6.9
+            },
+            {
+                "stop_en": "College Gate",
+                "stop_bn": "কলেজগেট",
+                "kiloFromZero": 9.5
+            },
+            {
+                "stop_en": "Asad Gate",
+                "stop_bn": "আসাদগেট",
+                "kiloFromZero": 10.2
+            },
+            {
+                "stop_en": "Mohammadpur Townhall",
+                "stop_bn": "মোহাম্মাদপুর টাউনহল",
+                "kiloFromZero": 10.8
+            },
+            {
+                "stop_en": "Satmasjid",
+                "stop_bn": "সাতমসজিদ",
+                "kiloFromZero": 11.5
+            },
+            {
+                "stop_en": "Shangkar",
+                "stop_bn": "সংকর",
+                "kiloFromZero": 12.4
+            },
+            {
+                "stop_en": "Dhanmondi-15",
+                "stop_bn": "ধানমন্ডি-১৫",
+                "kiloFromZero": 13.4
+            },
+            {
+                "stop_en": "Jigatola",
+                "stop_bn": "জিগাতলা",
+                "kiloFromZero": 14
+            },
+            {
+                "stop_en": "Sciencelab",
+                "stop_bn": "সাইন্সল্যাব",
+                "kiloFromZero": 15.1
+            },
+            {
+                "stop_en": "Shahbag",
+                "stop_bn": "শাহবাগ",
+                "kiloFromZero": 16.3
+            },
+            {
+                "stop_en": "Press Club",
+                "stop_bn": "প্রেস ক্লাব",
+                "kiloFromZero": 17.9
+            },
+            {
+                "stop_en": "Gulistan",
+                "stop_bn": "গুলিস্তান",
+                "kiloFromZero": 19
+            },
+            {
+                "stop_en": "Notredem College",
+                "stop_bn": "নটরডেম কলেজ",
+                "kiloFromZero": 20.8
             }
         ]
     },
@@ -218,7 +527,7 @@
                 "kiloFromZero": 19.3
             },
             {
-                "stop_en": "Bangabondhu Aveneue",
+                "stop_en": "Bongobondhu Aveneue",
                 "stop_bn": "বঙ্গবন্ধু এভিনিউ",
                 "kiloFromZero": 21.0
             },
@@ -572,6 +881,97 @@
                 "stop_en": "Narayongonj",
                 "stop_bn": "নারায়ণগঞ্জ",
                 "kiloFromZero": 16.2
+            }
+        ]
+    },
+    {
+        "id": "A-249",
+        "buses": [],
+        "stops": [
+            {
+                "stop_en": "Fulbaria",
+                "stop_bn": "ফুলবাড়িয়া",
+                "kiloFromZero": 0
+            },
+            {
+                "stop_en": "Noyabazar",
+                "stop_bn": "নয়াবাজার",
+                "kiloFromZero": 1.4
+            },
+            {
+                "stop_en": "Jinjira",
+                "stop_bn": "জিঞ্জিরা",
+                "kiloFromZero": 4
+            },
+            {
+                "stop_en": "Konakhola Bazar",
+                "stop_bn": "কোনাখোলা বাজার",
+                "kiloFromZero": 8.6
+            },
+            {
+                "stop_en": "Ramer Kanda",
+                "stop_bn": "রামের কান্দা",
+                "kiloFromZero": 12.5
+            },
+            {
+                "stop_en": "Syedpur",
+                "stop_bn": "সৈয়দপুর",
+                "kiloFromZero": 16
+            },
+            {
+                "stop_en": "Kharshur",
+                "stop_bn": "খারশুর",
+                "kiloFromZero": 23.5
+            },
+            {
+                "stop_en": "Tikorpur",
+                "stop_bn": "টিকরপুর",
+                "kiloFromZero": 28
+            },
+            {
+                "stop_en": "Agla Bazar",
+                "stop_bn": "আগলা বাজার",
+                "kiloFromZero": 29.2
+            },
+            {
+                "stop_en": "Box Nagar",
+                "stop_bn": "বক্স নগর",
+                "kiloFromZero": 33
+            },
+            {
+                "stop_en": "Shurganj",
+                "stop_bn": "শুরগঞ্জ",
+                "kiloFromZero": 34.8
+            },
+            {
+                "stop_en": "Bagmara",
+                "stop_bn": "বাগমারা",
+                "kiloFromZero": 35.2
+            },
+            {
+                "stop_en": "Nobabganj",
+                "stop_bn": "নবাবগঞ্জ",
+                "kiloFromZero": 36.1
+            },
+            {
+                "stop_en": "Majir Kanda",
+                "stop_bn": "মাঝির কান্দা",
+                "kiloFromZero": 39.4
+            },
+            {
+                "stop_en": "Bandura",
+                "stop_bn": "বান্দুরা",
+                "kiloFromZero": 42
+            },
+            {
+                "stop_en": "Baruakhali",
+                "stop_bn": "বারুয়াখালি",
+                "kiloFromZero": 47.8
+            },
+            {
+                "stop_en": "Khashiakhali Beribadh",
+                "stop_bn": "খাশিয়াখালি বেড়িবাঁধ",
+                "kiloFromZero": 52.5
             }
         ]
     },
