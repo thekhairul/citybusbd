@@ -7,6 +7,8 @@ import { RiRouteLine } from 'react-icons/ri';
 import NoResults from '../components/NoResults';
 import ReactSelect from '../components/ReactSelect';
 import Results from '../components/Results';
+import { server } from '../config';
+
 
 export default function Home({stops}) {
   const [fromValue, setFromValue] = useState(null);
@@ -22,7 +24,7 @@ export default function Home({stops}) {
   }
   const handleSearch = async () => {
     if (!fromValue || !toValue) return;
-    const res = await fetch('http://localhost:3000/api/matchedRoutes', {
+    const res = await fetch(`${server}/api/matchedRoutes`, {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -64,7 +66,7 @@ export default function Home({stops}) {
 }
 
 export async function getServerSideProps(context) {
-  const res = await fetch('http://localhost:3000/api/stops')
+  const res = await fetch(`${server}/api/stops`)
   const stops = await res.json()
 
   if (!stops) {
