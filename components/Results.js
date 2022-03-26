@@ -1,6 +1,7 @@
 import {
-  Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Icon, Text
+  Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Icon, Text, Tooltip
 } from '@chakra-ui/react';
+import { GoInfo } from 'react-icons/go';
 import { RiArrowLeftRightLine } from 'react-icons/ri';
 
 function Results({from, to, matchedRoutes}) {
@@ -23,7 +24,12 @@ function Results({from, to, matchedRoutes}) {
                                     </Box>
 
                                     <Box>
-                                        <Text color='gray'>Price</Text>
+                                        <Text color='gray' display="flex">
+                                            Price
+                                            <Tooltip hasArrow shouldWrapChildren placement='top' label='per km 2.15 tk' bg='gray.300' color='black'>
+                                                <Icon as={GoInfo} ml={1} pt={1} boxSize={5}/>
+                                            </Tooltip>
+                                        </Text>
                                         <Text fontSize='lg' fontWeight='bold'>{route.price} Tk</Text>
                                     </Box>
                                 </Box>

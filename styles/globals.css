@@ -11,9 +11,6 @@ body {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   min-height: 100vh !important;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 1rem;
 }
 body::after {
   content: "";
@@ -30,6 +27,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.app-main {
+  min-height: calc(100vh - 90px);
+}
+.app-footer {
+  background-color: #9fafbfe6;
+  border-top: 1px solid #ffffff8f;
+  color: #ffffff;
+}
+.app-footer a {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .citybus-from {

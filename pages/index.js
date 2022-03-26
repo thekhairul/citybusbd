@@ -37,14 +37,14 @@ export default function Home({stops}) {
   }
 
   return (
-    <div>
+    <div className='app'>
       <Head>
         <title>Citybus BD</title>
         <meta name="description" content="BRTA bus fare calculator and city bus finder" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Container maxW='container.md'>
+      <Container maxW='container.md' px={8} py={6} className='app-main'>
         <Box className='citybus-from' display='flex' alignItems='center' mb={6}>
           <Icon as={IoMdLocate} fontSize={22} ml={-7} mr={2} color='purple.500'/>
           <Box flex='1'>
@@ -60,6 +60,19 @@ export default function Home({stops}) {
         <Button colorScheme='purple' width='full' leftIcon={<RiRouteLine/>} onClick={handleSearch}>Search Routes</Button>
         {matchedRoutes.length ? <Results from={fromValue} to={toValue} matchedRoutes={matchedRoutes}/> : <NoResults />}
       </Container>
+
+      <footer className='app-footer'>
+        <Box display='flex' flexDirection='column' alignItems='center' p={6} textAlign='center'>
+          <p>
+            &copy; Copyright- <a href='https://vuefolio-thekhairul.vercel.app/' rel='noreferrer' target='_blank'>Khairul Anik</a>, 2022.
+            Built with <a href="https://nextjs.org/" rel='noreferrer' target='_blank'>Next.js</a> and&nbsp;
+            <a href="https://chakra-ui.com/" rel='noreferrer' target='_blank'>Chakra UI</a>
+          </p>
+          <p>
+            Bus data taken from  <a href="http://www.brta.gov.bd/sites/default/files/files/brta.portal.gov.bd/page/2e6949b3_de20_460e_b816_3f03631d430f/2021-11-10-09-58-131955c06e220d990cd6ad1a5206f168.pdf" rel='noreferrer' target='_blank'>BRTA</a>
+          </p>
+        </Box>
+      </footer>
 
     </div>
   );
