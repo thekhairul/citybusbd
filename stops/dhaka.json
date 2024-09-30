@@ -1,0 +1,1598 @@
+[
+    {
+        "id": "37B9D619",
+        "en": "300 Feet",
+        "bn": "300 ফুট",
+        "placeId": "ChIJM5z4p0bGVTcRcWxL4CwDMtY",
+        "placeId2": "ChIJKykVFQDHVTcRyNhBxApaeYk"
+    },
+    {
+        "id": "E03EA4C7",
+        "en": "Abdullahpur",
+        "bn": "আবদুল্লাহপুর",
+        "placeId": "ChIJ9XEdoznEVTcRe_1hS7H3gbM",
+        "placeId2": "ChIJ_7jRWz3FVTcRZXwmtMmxZ_4"
+    },
+    {
+        "id": "54CCBAC7",
+        "en": "Adabor",
+        "bn": "আদাবর",
+        "placeId": "ChIJ09wpuaTAVTcRv1fJkJSWHoM",
+        "placeId2": "ChIJF0SgGg_BVTcRHgHxmJd9k0w"
+    },
+    {
+        "id": "4846A4FC",
+        "en": "Adamjee School",
+        "bn": "আদমজী স্কুল",
+        "placeId": "ChIJAbUuwj3HVTcRV_4Uc9cKqIM",
+        "placeId2": "ChIJrXy3c7nHVTcRQwyKXVKIyoQ"
+    },
+    {
+        "id": "F3F773E6",
+        "en": "Agargaon",
+        "bn": "আগারগাঁও",
+        "placeId": "ChIJBzXcTtTHVTcRbSrFNo2XjEA",
+        "placeId2": "ChIJsYl87QnHVTcRt4lfU-Ot7KA"
+    },
+    {
+        "id": "DC5662CF",
+        "en": "Airport",
+        "bn": "বিমানবন্দর",
+        "placeId": "ChIJd3WAbITGVTcRDUxbcSnhC1E",
+        "placeId2": "ChIJv3a-qYbGVTcRID3U_tqKjQk"
+    },
+    {
+        "id": "37FF6A21",
+        "en": "Amin Bazar",
+        "bn": "আমিন বাজার",
+        "placeId": "EiRBbWluIEJhemFyIEJyaWRnZSwgRGhha2EsIEJhbmdsYWRlc2giLiosChQKEgk18_hQYMBVNxGUrlwGURav6hIUChIJgWsCh7C4VTcRwgRZ3btjpY8",
+        "placeId2": "ChIJb96w-WDAVTcRPFceu2RogNw"
+    },
+    {
+        "id": "10045FFB",
+        "en": "Ansar Camp",
+        "bn": "আনসার ক্যাম্প",
+        "placeId": "ChIJHy1FSurAVTcRLsZifs-AHHc",
+        "placeId2": "ChIJNSaGgkbBVTcRZKq1D6UuiJc"
+    },
+    {
+        "id": "E26D14A2",
+        "en": "Arambag",
+        "bn": "আরামবাগ",
+        "placeId": "ChIJq8wFKVm5VTcRFUpF2KFug8I",
+        "placeId2": "ChIJaUutMFu4VTcRZhgfg7wLB64"
+    },
+    {
+        "id": "464B9F35",
+        "en": "Asad Gate",
+        "bn": "আসাদ গেট",
+        "placeId": "ChIJRVzrBlW_VTcRX08HXybSE20",
+        "placeId2": "ChIJJ8ITBVW_VTcRcWh-SZWUzlE"
+    },
+    {
+        "id": "1CAFB599",
+        "en": "Ashulia",
+        "bn": "আশুলিয়া",
+        "placeId": "ChIJe2OBuuXDVTcR7XdoylGVAeA",
+        "placeId2": "ChIJ096GEVHCVTcRRw6tUZ-NPrA"
+    },
+    {
+        "id": "0C1A3C5D",
+        "en": "Azompur",
+        "bn": "আজমপুর",
+        "placeId": "ChIJJ_m2MJTFVTcRdDHR4wDRlO4",
+        "placeId2": "ChIJN4GOUXHFVTcRP3cm33QjE_U"
+    },
+    {
+        "id": "1FF50A10",
+        "en": "Azimpur",
+        "bn": "আজিমপুর",
+        "placeId": "ChIJi-5zORK5VTcR3xMRNyoUCqY",
+        "placeId2": "ChIJ9Qa5xsS4VTcRqIkqfEFJVqo"
+    },
+    {
+        "id": "8A24DDAE",
+        "en": "Babu Bazar",
+        "bn": "বাবু বাজার",
+        "placeId": "ChIJ61jdyRy5VTcR5gw5ChAIarQ",
+        "placeId2": "ChIJAaedtRy5VTcR4ZX0h9yFpyc"
+    },
+    {
+        "id": "D0D9D06F",
+        "en": "Badda",
+        "bn": "বাড্ডা",
+        "placeId": "ChIJ086dPU7HVTcRrJBw_i5tMWk",
+        "placeId2": "ChIJhfZEZEzHVTcRENN5iWoT4OY"
+    },
+    {
+        "id": "CB088573",
+        "en": "Badda Link Road",
+        "bn": "বাড্ডা লিংক রোড",
+        "placeId": "ChIJCb08tZbHVTcRAvMMXtkEP-w",
+        "placeId2": "ChIJ4dsiFXTHVTcRQckvQA9irGQ"
+    },
+    {
+        "id": "97024788",
+        "en": "Baipail",
+        "bn": "বাইপাইল",
+        "placeId": "ChIJ3fwbrl_pVTcRPU7oWc1tD20",
+        "placeId2": "ChIJM1Kw71DpVTcRegsRgjGVlis"
+    },
+    {
+        "id": "7B588A76",
+        "en": "Baitul Mukarram",
+        "bn": "বায়তুল মোকাররম",
+        "placeId": "ChIJl2KNkDe5VTcRSwmF86hSPZs",
+        "placeId2": "ChIJA_MMZFi4VTcRX5fo_jLmZwM"
+    },
+    {
+        "id": "07F80E89",
+        "en": "Bokshi Bazar",
+        "bn": "বকশী বাজার",
+        "placeId": "ChIJu5MoohC5VTcRbT70UPyX0fk",
+        "placeId2": "ChIJsxPuz2y5VTcRJK1lAtdsTqc"
+    },
+    {
+        "id": "5ECEB60B",
+        "en": "Balughat",
+        "bn": "বালুঘাট",
+        "placeId": "ChIJQw9VccDHVTcRMsA6nRowwnY",
+        "placeId2": "ChIJl-oUljDHVTcRm2J6nitN_d4"
+    },
+    {
+        "id": "4A9D03B4",
+        "en": "Banani",
+        "bn": "বনানী",
+        "placeId": "ChIJR6-h-JjHVTcR67J-gV_ihHA",
+        "placeId2": "ChIJSbsbXTbHVTcRxQHtcoqzXuE"
+    },
+    {
+        "id": "24AFCF5D",
+        "en": "Banasree",
+        "bn": "বনশ্রী",
+        "placeId": "ChIJafKj7GXHVTcRdWaYs6vDPVI",
+        "placeId2": "ChIJIaYS54jHVTcRwIJfkL3SuG4"
+    },
+    {
+        "id": "2B590CD1",
+        "en": "Bangla College",
+        "bn": "বাংলা কলেজ",
+        "placeId": "ChIJv1jn4ZTAVTcRQQHvZLUG_XU",
+        "placeId2": "ChIJh9ICRBPBVTcRqzooyB4Ix00"
+    },
+    {
+        "id": "5DD71743",
+        "en": "Bangla Motor",
+        "bn": "বাংলা মটর",
+        "placeId": "ChIJbRqESMy5VTcRw-uEi-8RnaU",
+        "placeId2": "ChIJu8Ixc5a4VTcRzcEP5m98eqQ"
+    },
+    {
+        "id": "9B22E7F3",
+        "en": "Barmi",
+        "bn": "বারমি",
+        "placeId": "ChIJiTVvalV5VjcRh9Bpehq1njI",
+        "placeId2": "ChIJHfxpexF5VjcR-3fF5TTM9SM"
+    },
+    {
+        "id": "ACFF77D6",
+        "en": "Bashabo",
+        "bn": "বাশাবো",
+        "placeId": "ChIJOyN4c2q4VTcRbOkFcdOMhOM",
+        "placeId2": "ChIJU8PJEmq4VTcRWtGH9CJfNxg"
+    },
+    {
+        "id": "12E269A1",
+        "en": "Bashtola",
+        "bn": "বাঁশতলা",
+        "placeId": "ChIJR9zjCLvHVTcRSYIfcOBR67Q",
+        "placeId2": "ChIJUR9PWgDHVTcRCUVGBWJZPis"
+    },
+    {
+        "id": "76096C64",
+        "en": "Bashundhara",
+        "bn": "বসুন্ধরা",
+        "placeId": "ChIJdYB2olLGVTcRN0TqBmSGpLU",
+        "placeId2": "ChIJJ7CfdEvGVTcRqpU4lfqNDhk"
+    },
+    {
+        "id": "03ACD0FD",
+        "en": "Bata Signal",
+        "bn": "বাটা সিগন্যাল",
+        "placeId": "ChIJx91ZVce4VTcR_WvFxBqyXHY",
+        "placeId2": "ChIJqfXEqLi4VTcRElbfszOOmSk"
+    },
+    {
+        "id": "2F68E5A5",
+        "en": "Beribadh",
+        "bn": "বেড়িবাধ",
+        "placeId": "ChIJ9TjsuJDDVTcRhgxatZJwlRc",
+        "placeId2": "ChIJo9MLwZDDVTcR9T1UdWKcaX4"
+    },
+    {
+        "id": "F1420CF0",
+        "en": "Bijoy Soroni",
+        "bn": "বিজয় সরণী",
+        "placeId": "ChIJlTXDOGvHVTcReGX2-W2rw60",
+        "placeId2": "ChIJ3Qc5M1_HVTcRsB2wyP46bPA"
+    },
+    {
+        "id": "69D6AEA9",
+        "en": "Birulia",
+        "bn": "বিরুলিয়া",
+        "placeId": "ChIJZ0UJzHnBVTcRMfZCNMLHAaU",
+        "placeId2": "ChIJZ0UJzHnBVTcRMfZCNMLHAaU"
+    },
+    {
+        "id": "093C2057",
+        "en": "Board Bazar",
+        "bn": "বোর্ড বাজার",
+        "placeId": "ChIJtaDTSK7EVTcR8TU9Qxl84-g",
+        "placeId2": "ChIJB8zx86DFVTcR9XMbtwlh-tM"
+    },
+    {
+        "id": "CA1514C1",
+        "en": "Bosila",
+        "bn": "বসিলা",
+        "placeId": "ChIJNTfN6F2_VTcRdFm5IjRcF0c",
+        "placeId2": "ChIJiwS9sUm_VTcRGCqZgSv0tkg"
+    },
+    {
+        "id": "5CD00120",
+        "en": "Cantonment",
+        "bn": "ক্যান্টনমেন্ট",
+        "placeId": "ChIJffXM1cDHVTcRpa0wT266ojg",
+        "placeId2": "ChIJffXM1cDHVTcRpa0wT266ojg"
+    },
+    {
+        "id": "B74FDA44",
+        "en": "Chairman Bari",
+        "bn": "চেয়ারম্যান বাড়ী",
+        "placeId": "ChIJi31-YgDHVTcRL9ZTjLShcyw",
+        "placeId2": "ChIJ6fBjOkjHVTcRIdNrKjqCpm0"
+    },
+    {
+        "id": "57119BD2",
+        "en": "Chandra",
+        "bn": "চন্দ্রা",
+        "placeId": "ChIJr2TafADnVTcRQl7JvKCzv0k",
+        "placeId2": "ChIJlXQUfbTmVTcRWxCnJLAPrO8"
+    },
+    {
+        "id": "D29BB186",
+        "en": "Chankhar Pul",
+        "bn": "চানখার পুল",
+        "placeId": "ChIJj35NUuS4VTcR7pdDq6O5KoQ",
+        "placeId2": "ChIJp0heTeS4VTcRJ5ue4lw3q04"
+    },
+    {
+        "id": "84A2DB96",
+        "en": "Chashara",
+        "bn": "চাষাঢ়া",
+        "placeId": "ChIJA7XltgixVTcRvwa7Ehhp-NI",
+        "placeId2": "ChIJFeHKyQixVTcR1LPqPzDo9gM"
+    },
+    {
+        "id": "5999CC11",
+        "en": "Chiriyakhana",
+        "bn": "চিড়িয়াখানা",
+        "placeId": "ChIJW95AaY_BVTcRa_S-1fAUrF4",
+        "placeId2": "ChIJy97acB3BVTcRlg7K5d1P7wM"
+    },
+    {
+        "id": "4DCFDE76",
+        "en": "Chittagong Road",
+        "bn": "চিটাগাং রোড",
+        "placeId": "ChIJX1PhmpO2VTcREqu6agV5HvE",
+        "placeId2": "ChIJRYrzcJO2VTcRDedcviNK7RA"
+    },
+    {
+        "id": "13883B14",
+        "en": "Cholontika Mor",
+        "bn": "চলন্তিকা মোড়",
+        "placeId": "ChIJ66I4jSbBVTcRABAPaxzVlOY",
+        "placeId2": "ChIJBSuvjCbBVTcR-4OmIL3p7YA"
+    },
+    {
+        "id": "4F98B509",
+        "en": "City College",
+        "bn": "সিটি কলেজ",
+        "placeId": "ChIJLUUO3re4VTcRh7hTzBQ5x-4",
+        "placeId2": "ChIJf9rS5be4VTcRMnh0kwU6Umc"
+    },
+    {
+        "id": "0D502B56",
+        "en": "College Gate",
+        "bn": "কলেজ গেট",
+        "placeId": "ChIJX4KISqnAVTcRiZonMGz5KIk",
+        "placeId2": "ChIJlQBHWfLBVTcRfvumF6mEl54"
+    },
+    {
+        "id": "9D4B58B5",
+        "en": "Doinik Bangla Mor",
+        "bn": "দৈনিক বাংলা মোড়",
+        "placeId": "ChIJ_fa4Blm4VTcRUKYqdfy1hs4",
+        "placeId2": "ChIJbfQRB1m4VTcRjmxo2b3E214"
+    },
+    {
+        "id": "32AF396E",
+        "en": "Darus Salam",
+        "bn": "দারুস সালাম",
+        "placeId": "ChIJP7f2lIbBVTcRIxmT-Ekfv6U",
+        "placeId2": "ChIJ9RHWBgDBVTcRWIfashabb4o"
+    },
+    {
+        "id": "5956B252",
+        "en": "Doyaganj",
+        "bn": "দয়াগঞ্জ",
+        "placeId": "ChIJIYSoN7K5VTcRY65_pGzdE8I",
+        "placeId2": "ChIJz3QfBQC5VTcROH67naaB80s"
+    },
+    {
+        "id": "40A96918",
+        "en": "Demra Staff Quarter",
+        "bn": "ডেমরা স্টাফ কোয়ার্টার",
+        "placeId": "ChIJ9Vz_DVS2VTcRuz40OdggCqs",
+        "placeId2": "ChIJq0cELaC3VTcRSiBWPqNav6g"
+    },
+    {
+        "id": "DB29E158",
+        "en": "Dhakeshwari",
+        "bn": "ঢাকেশ্বরী",
+        "placeId": "ChIJ1yenv9u4VTcR_T7d_xh3KXQ",
+        "placeId2": "ChIJ1yenv9u4VTcR_T7d_xh3KXQ"
+    },
+    {
+        "id": "E44580B1",
+        "en": "Dhamrai",
+        "bn": "ধামরাই",
+        "placeId": "ChIJkSoc6iTvVTcRWytCK4qd_f0",
+        "placeId2": "ChIJNdr-a6bvVTcRk18nAoOYfJc"
+    },
+    {
+        "id": "7F811C6F",
+        "en": "Dhanmondi 15",
+        "bn": "ধানমন্ডি ১৫",
+        "placeId": "ChIJ59R9QFq_VTcRI4c5gJCUK6g",
+        "placeId2": "ChIJY06n0em_VTcR-b77OGo3S-w"
+    },
+    {
+        "id": "606DCAED",
+        "en": "Dhanmondi 27",
+        "bn": "ধানমন্ডি ২৭",
+        "placeId": "ChIJi4Jopay4VTcRV4qVthUJGQ4",
+        "placeId2": "ChIJJYPNs6y4VTcR1ZpsU-hV8yU"
+    },
+    {
+        "id": "6AB3D624",
+        "en": "Dhanmondi 32",
+        "bn": "ধানমন্ডি ৩২",
+        "placeId": "ChIJ3ycfGgC5VTcRs-ODvODKg7g",
+        "placeId2": "ChIJFd_o9a24VTcRAE-p-N4SXu0"
+    },
+    {
+        "id": "5AEB86C3",
+        "en": "Dholaipar",
+        "bn": "ধোলাইপাড়",
+        "placeId": "ChIJP-c9P9W5VTcR9kGsU9DGk1E",
+        "placeId2": "ChIJ9zXHWSq5VTcR2FsmQURFBJM"
+    },
+    {
+        "id": "F7AE08EF",
+        "en": "Dhour",
+        "bn": "ধোউর",
+        "placeId": "ChIJNV6i4IfDVTcRkE36MWWj3dw",
+        "placeId2": "ChIJP9AA4YfDVTcRI010ckHovlQ"
+    },
+    {
+        "id": "83138793",
+        "en": "Diabari",
+        "bn": "দিয়াবাড়ি",
+        "placeId": "ChIJT2bPnPDAVTcRSe0zouYcDO4",
+        "placeId2": "ChIJ9b3dbv3BVTcRqKtFZw92eiQ"
+    },
+    {
+        "id": "7478CB5D",
+        "en": "Duaripara",
+        "bn": "দুয়ারীপাড়া",
+        "placeId": "ChIJgfcaaz3BVTcR03IaD49HiQk",
+        "placeId2": "ChIJM7zWJHPBVTcRSVvSadi7qLU"
+    },
+    {
+        "id": "791EC778",
+        "en": "ECB Square",
+        "bn": "ইসিবি চত্বর",
+        "placeId": "ChIJj4kU1C3HVTcRhpVhrhgRrUQ",
+        "placeId2": "ChIJFSDnq8LGVTcR6dmgA0NPPxY"
+    },
+    {
+        "id": "B4D49344",
+        "en": "Eden College",
+        "bn": "ইডেন কলেজ",
+        "placeId": "ChIJ9Qa5xsS4VTcRqIkqfEFJVqo",
+        "placeId2": "ChIJ4dKa1TO5VTcRp3HqFxTFmGM"
+    },
+    {
+        "id": "8B91F457",
+        "en": "Fantasy Kingdom",
+        "bn": "ফ্যান্টাসি কিংডম",
+        "placeId": "ChIJMfMHA2PpVTcR2-L_2SIIOcY",
+        "placeId2": "ChIJ8RXk1l_pVTcRILvKFv5F7qo"
+    },
+    {
+        "id": "1EA9CD2F",
+        "en": "Farmgate",
+        "bn": "ফার্মগেট",
+        "placeId": "ChIJkyu_QaG4VTcRrPPAD9v9qAs",
+        "placeId2": "ChIJ_eSpa6G4VTcRWjNdBtRinuE"
+    },
+    {
+        "id": "A4C33815",
+        "en": "Fokirapul",
+        "bn": "ফকিরাপুল",
+        "placeId": "ChIJPZVWJ1y4VTcRJwEGFypAkrk",
+        "placeId2": "ChIJ88ztvF24VTcRNaJKBatweVs"
+    },
+    {
+        "id": "393AA533",
+        "en": "Fulbaria",
+        "bn": "ফুলবাড়িয়া",
+        "placeId": "ChIJRfqTGiG5VTcR3pseZyH5vcU",
+        "placeId2": "ChIJ6VxjHPm4VTcRa8jni-GZi7o"
+    },
+    {
+        "id": "BDBDC0C7",
+        "en": "Gabtoli",
+        "bn": "গাবতলী",
+        "placeId": "ChIJs_9hcozAVTcRFFqbe-nwoRE",
+        "placeId2": "ChIJtTZyK4bBVTcRwRiNGUPxhV4"
+    },
+    {
+        "id": "B14B2FC0",
+        "en": "Gandaria",
+        "bn": "গেন্ডারিয়া",
+        "placeId": "ChIJ7U9jOre5VTcRYCzC50Tu2Zw",
+        "placeId2": "ChIJAQBARri5VTcRA6kpBAhcVfI"
+    },
+    {
+        "id": "C1B6CDDF",
+        "en": "Garrison",
+        "bn": "গ্যারিসন",
+        "placeId": "ChIJl_DXbiLHVTcRtN7zLz52gpA",
+        "placeId2": "ChIJX51T9BjHVTcRrJu7w67QEXE"
+    },
+    {
+        "id": "D0234D8A",
+        "en": "Gazipur Bypass",
+        "bn": "গাজীপুর বাইপাস",
+        "placeId": "ChIJvSb2XcfjVTcRPyvjhTHp9gg",
+        "placeId2": "ChIJvSb2XcfjVTcRPyvjhTHp9gg"
+    },
+    {
+        "id": "664043C3",
+        "en": "Gazipur Chourasta",
+        "bn": "গাজীপুর চৌরাস্তা",
+        "placeId": "ChIJW_NMIXvbVTcRoO_4YryLJuk",
+        "placeId2": "ChIJ7_um3nrbVTcR9mTxbTnr2AM"
+    },
+    {
+        "id": "D39FF09B",
+        "en": "Ghatar Char",
+        "bn": "ঘাটার চর",
+        "placeId": "ChIJVaLh_Oa_VTcRgrR0y3ixbqs",
+        "placeId2": "ChIJMY6P2Ci_VTcR_93lMRMW2eY"
+    },
+    {
+        "id": "C4A1101E",
+        "en": "Golap Shah Mazar",
+        "bn": "গোলাপ শাহ মাজার",
+        "placeId": "ChIJS2DVTvi4VTcRXN2oN_480Qc",
+        "placeId2": "ChIJlS7gRvi4VTcRZBx7hlCn6OU"
+    },
+    {
+        "id": "90BFAB5F",
+        "en": "Golapbag Chourasta",
+        "bn": "গোলাপবাগ চৌরাস্তা",
+        "placeId": "ChIJo62hvse5VTcRB-EG01ZXqgI",
+        "placeId2": "ChIJ-1cz_Uq4VTcRan2o3WZdP-o"
+    },
+    {
+        "id": "A87BD7BE",
+        "en": "GPO",
+        "bn": "জিপিও",
+        "placeId": "ChIJl8FGgfe4VTcR_QM6x2OeH-A",
+        "placeId2": "ChIJxXH9k_e4VTcRJty31EWjLKA"
+    },
+    {
+        "id": "9A70A58B",
+        "en": "Gulistan",
+        "bn": "গুলিস্তান",
+        "placeId": "ChIJpS6iEvi4VTcRO356U9XDsxI",
+        "placeId2": "ChIJ7WkMy2u5VTcR2me-YuAk77c"
+    },
+    {
+        "id": "8370BEA8",
+        "en": "Gulshan 1",
+        "bn": "গুলশান ১",
+        "placeId": "ChIJabtgAJzHVTcRDIGK5Al8p2U",
+        "placeId2": "ChIJ7eeg4pvHVTcRlsh__fSk1Dk"
+    },
+    {
+        "id": "7A246439",
+        "en": "Gulshan 2",
+        "bn": "গুলশান ২",
+        "placeId": "ChIJ7zSy2KbHVTcR3TYudvajghw",
+        "placeId2": "ChIJ__8vIqfHVTcRqi5FZN7veB8"
+    },
+    {
+        "id": "BCEF45C1",
+        "en": "Hasnabad",
+        "bn": "হাসনাবাদ",
+        "placeId": "ChIJ0VT1WaC5VTcRQiqu9LWDSgU",
+        "placeId2": "ChIJv1s8kJC5VTcRTKfX_Lo5onI"
+    },
+    {
+        "id": "B10FFE5F",
+        "en": "Hazaribag",
+        "bn": "হাজারীবাগ",
+        "placeId": "ChIJsdUjcK-_VTcRIfy4ec-P1EA",
+        "placeId2": "ChIJNe0vKgC_VTcRrzR8jpyTdl0"
+    },
+    {
+        "id": "E5398565",
+        "en": "Hazipara",
+        "bn": "হাজীপাড়া",
+        "placeId": "ChIJh_EoVXm4VTcRR0IqJUj9bpY",
+        "placeId2": "ChIJqx7FEHy4VTcRJJ57O6NyKys"
+    },
+    {
+        "id": "6E45AD8E",
+        "en": "Hemayetpur",
+        "bn": "হেমায়েতপুর",
+        "placeId": "ChIJq6qqqo7qVTcRaVz3P58mkIY",
+        "placeId2": "ChIJx6K8U-_qVTcR7fN8XDGAGD4"
+    },
+    {
+        "id": "EAEA45B2",
+        "en": "High Court",
+        "bn": "হাইকোর্ট",
+        "placeId": "ChIJced7hMW5VTcR3XtPcavFuC4",
+        "placeId2": "ChIJP8p_mPG4VTcR4pFf5tBt3bs"
+    },
+    {
+        "id": "813ED4EF",
+        "en": "House Building",
+        "bn": "হাউস বিল্ডিং",
+        "placeId": "ChIJgXrkxzvEVTcRVn2aiCtCBSE",
+        "placeId2": "ChIJGx7TsjvEVTcRFWr73zD8jp0"
+    },
+    {
+        "id": "5763C08B",
+        "en": "IDB",
+        "bn": "আইডিবি",
+        "placeId": "ChIJi9S9YU7HVTcRbjS5Ztuc50A",
+        "placeId2": "ChIJK1RPZE7HVTcRNiAYcuDvE4s"
+    },
+    {
+        "id": "D03BE673",
+        "en": "Ittefaq Mor",
+        "bn": "ইত্তেফাক মোড়",
+        "placeId": "ChIJv_Z-JSq5VTcRJH30vSfi5JA",
+        "placeId2": "ChIJFYk4xQu5VTcRqniq9uteSVM"
+    },
+    {
+        "id": "50A50694",
+        "en": "Jahangir Gate",
+        "bn": "জাহাঙ্গীর গেট",
+        "placeId": "ChIJuab_TkPHVTcR-N5KuzXxnW8",
+        "placeId2": "ChIJVSWAoOvHVTcRAhpGTfeae0s"
+    },
+    {
+        "id": "E051CDB8",
+        "en": "Jakir Hossen Road",
+        "bn": "জাকির হোসেন রোড",
+        "placeId": "ChIJFwGVtOe_VTcRCp9RRp8M4Bw",
+        "placeId2": "ChIJleh_Yle_VTcR9Dwn_x15fT4"
+    },
+    {
+        "id": "7A6052DC",
+        "en": "Jamgara",
+        "bn": "জামগড়া",
+        "placeId": "ChIJf10_ChroVTcRUzqmcfULHKs",
+        "placeId2": "ChIJpVMmRGbpVTcRoxoAKmFMcys"
+    },
+    {
+        "id": "1052BD3B",
+        "en": "Jamuna Future Park",
+        "bn": "যমুনা ফিউচার পার্ক",
+        "placeId": "ChIJ89u6hvHHVTcRykpqGHrAoVw",
+        "placeId2": "ChIJfXMwcqfHVTcRJwOZnINR8B8"
+    },
+    {
+        "id": "1D0CCE2F",
+        "en": "Janapth Mor",
+        "bn": "জনপথ মোড়",
+        "placeId": "ChIJh-e0XMO5VTcR9ZPrOozDVck",
+        "placeId2": "ChIJSQEzFAC5VTcRIETZwn--ceI"
+    },
+    {
+        "id": "723A8868",
+        "en": "Japan Garden City",
+        "bn": "জাপান গার্ডেন সিটি",
+        "placeId": "ChIJTXjieYDBVTcRffvOnOi2XCM",
+        "placeId2": "ChIJiyzn0uS_VTcRVxKO-L-p1Jg"
+    },
+    {
+        "id": "4C528705",
+        "en": "Jarun",
+        "bn": "জারুন",
+        "placeId": "ChIJ31ZhcgzdVTcRtnkU3HXavRE",
+        "placeId2": "ChIJ5Z-OhV3dVTcRlqpkB8f2ZmY"
+    },
+    {
+        "id": "7EA4EA68",
+        "en": "Jashimuddin",
+        "bn": "জসিমুদ্দিন",
+        "placeId": "ChIJG8YLHSfEVTcRJxiGgvFD_dE",
+        "placeId2": "ChIJBwTl_ibEVTcR9M0Lt36vJvE"
+    },
+    {
+        "id": "36D7A2C8",
+        "en": "Jatrabari",
+        "bn": "যাত্রাবাড়ী",
+        "placeId": "ChIJ9TORxcu5VTcRXIvZhENjlhQ",
+        "placeId2": "ChIJCY6B0Mu5VTcRoM-HOozDfms"
+    },
+    {
+        "id": "A5566079",
+        "en": "Jhigatala",
+        "bn": "ঝিগাতলা",
+        "placeId": "ChIJa_WOocq4VTcRCGxkGHz4AlY",
+        "placeId2": "ChIJB-CuAOK5VTcRLWcpjRlzoOw"
+    },
+    {
+        "id": "B46207F3",
+        "en": "Jolkuri",
+        "bn": "জলকুড়ি",
+        "placeId": "ChIJR-P2vdWwVTcRBnRDNMcml7E",
+        "placeId2": "ChIJjQQ_mNWwVTcRzdPKK8gwT3U"
+    },
+    {
+        "id": "534678B8",
+        "en": "Joydebpur",
+        "bn": "জয়দেবপুর",
+        "placeId": "ChIJuzXvZFPbVTcR-qY11RKAatI",
+        "placeId2": "ChIJcX0xXf_aVTcR-aJUsmgPaIo"
+    },
+    {
+        "id": "6CB10B7F",
+        "en": "Jurain",
+        "bn": "জুরাইন",
+        "placeId": "ChIJfdkOpMG5VTcRy6i9HGegS3Q",
+        "placeId2": "ChIJw4itosG5VTcRbj0y50MGP4I"
+    },
+    {
+        "id": "E424BD39",
+        "en": "Kakoli",
+        "bn": "কাকলি",
+        "placeId": "ChIJSbsbXTbHVTcRxQHtcoqzXuE",
+        "placeId2": "ChIJY1tm3FPHVTcRgPWe3tPCq6E"
+    },
+    {
+        "id": "35A6E1AC",
+        "en": "Kakrail",
+        "bn": "কাকরাইল",
+        "placeId": "ChIJd2WUuPS4VTcRRCkBGR251Ig",
+        "placeId2": "ChIJMa28OiW5VTcRZfpGHvhZ7_Q"
+    },
+    {
+        "id": "F93F9C60",
+        "en": "Kalabagan",
+        "bn": "কলাবাগান",
+        "placeId": "ChIJxVCbAQO5VTcRQpfpfbtktWc",
+        "placeId2": "ChIJ-TZQdLG4VTcRNljK4BSiVdw"
+    },
+    {
+        "id": "3291D791",
+        "en": "Kalampur",
+        "bn": "কালামপুর",
+        "placeId": "ChIJs8udRM3vVTcRWsnO7571OwM",
+        "placeId2": "ChIJuf6--NnvVTcRt_NiBqv8-Nw"
+    },
+    {
+        "id": "5C46F2F6",
+        "en": "Kollyanpur",
+        "bn": "কল্যানপুর",
+        "placeId": "ChIJj_QSg7vAVTcRntfPiEz9Iio",
+        "placeId2": "ChIJ2RUMx2PBVTcRZBXECUJyY3I"
+    },
+    {
+        "id": "BCE19806",
+        "en": "Kalshi",
+        "bn": "কালশী",
+        "placeId": "ChIJG2O9oL3HVTcRlt220vsca9A",
+        "placeId2": "ChIJTTyZiM3GVTcR1WS2DOag1nM"
+    },
+    {
+        "id": "4FDA1D3B",
+        "en": "Komolapur",
+        "bn": "কমলাপুর",
+        "placeId": "ChIJN_iW3J65VTcR_oN6njYklFY",
+        "placeId2": "ChIJB3wn9UO4VTcRoKsxuWvKZ5E"
+    },
+    {
+        "id": "A0950098",
+        "en": "Kamarpara",
+        "bn": "কামারপাড়া",
+        "placeId": "ChIJ8y6Xb6HFVTcRARU90pV7UK4",
+        "placeId2": "ChIJ8y6Xb6HFVTcRARU90pV7UK4"
+    },
+    {
+        "id": "846BB288",
+        "en": "Kamrangir char",
+        "bn": "কামরাঙ্গীর চর",
+        "placeId": "ChIJv1zd2im5VTcRrbLIkjBN0AM",
+        "placeId2": "ChIJic86zim5VTcRKdv1Nq7Laao"
+    },
+    {
+        "id": "F0714B5E",
+        "en": "Kanchon Bridge",
+        "bn": "কাঞ্চন সেতু",
+        "placeId": "ChIJj0u9MzPLVTcR4SPvxtp9Kwo",
+        "placeId2": "ChIJj0u9MzPLVTcR4SPvxtp9Kwo"
+    },
+    {
+        "id": "C4034E3D",
+        "en": "Kanchpur",
+        "bn": "কাঁচপুর",
+        "placeId": "ChIJZ3-kCoO2VTcRp4FC41MkUR4",
+        "placeId2": "ChIJ56b5ofC3VTcR-hKNmmpoJfY"
+    },
+    {
+        "id": "DFDB921A",
+        "en": "Kashimpur",
+        "bn": "কাশিমপুর",
+        "placeId": "ChIJ0X6KOdfdVTcRYr7PTmoBCc4",
+        "placeId2": "ChIJn7vHmXHdVTcRw3Gw8pKPj6Y"
+    },
+    {
+        "id": "5D080B61",
+        "en": "Katabon",
+        "bn": "কাঁটাবন",
+        "placeId": "ChIJm-GKhsC4VTcRLwU2pp09SKc",
+        "placeId2": "ChIJjeecwEe5VTcRDqaPP7KgVCE"
+    },
+    {
+        "id": "2639EB53",
+        "en": "Kawran Bazar",
+        "bn": "কাওরান বাজার",
+        "placeId": "ChIJH4NYUb24VTcRyQLXsdL7mxY",
+        "placeId2": "ChIJsZP7raK4VTcR6-bKL7ApZU0"
+    },
+    {
+        "id": "D9C49665",
+        "en": "Kazipara",
+        "bn": "কাজীপাড়া",
+        "placeId": "ChIJHesTc83AVTcR6yP6RMSPixs",
+        "placeId2": "ChIJsWMjDM3AVTcRStJTmqz4chc"
+    },
+    {
+        "id": "7251A954",
+        "en": "Kazla",
+        "bn": "কাজলা",
+        "placeId": "ChIJ-2GtwtC5VTcR1QpnLnTXboo",
+        "placeId2": "ChIJCy_Z2v25VTcRMZRZNswGXoc"
+    },
+    {
+        "id": "41FFFA0B",
+        "en": "Keraniganj",
+        "bn": "কেরানীগঞ্জ",
+        "placeId": "ChIJdVv90YO5VTcR7R3NJz0B4ik",
+        "placeId2": "ChIJL_XhXwW5VTcRhz6kmF-dYpA"
+    },
+    {
+        "id": "276C7CDF",
+        "en": "Khamar Bari",
+        "bn": "খামার বাড়ি",
+        "placeId": "ChIJJ9x96qi4VTcRpSk6AXpzqow",
+        "placeId2": "ChIJcx1Qmqi4VTcRMy9x3DH0Dg4"
+    },
+    {
+        "id": "FC1488F5",
+        "en": "Khilgaon",
+        "bn": "খিলগাঁও",
+        "placeId": "ChIJ2TW0p2-4VTcRcKkzlq-NyiE",
+        "placeId2": "ChIJLVWzqm-4VTcRBPjIiRcQMpg"
+    },
+    {
+        "id": "CA667FE1",
+        "en": "Khilkhet",
+        "bn": "খিলক্ষেত",
+        "placeId": "ChIJi5uG9VzGVTcRp4v2peN_JUo",
+        "placeId2": "ChIJhyfk81zGVTcR1U-RYbm_7vU"
+    },
+    {
+        "id": "05A08A72",
+        "en": "Kochukhet",
+        "bn": "কচুক্ষেত",
+        "placeId": "ChIJ-RH1FTnHVTcRop97XepzorA",
+        "placeId2": "ChIJCUqsFtrBVTcRHjdxDk8qr2c"
+    },
+    {
+        "id": "36636DB3",
+        "en": "Kadamtoli",
+        "bn": "কদমতলী",
+        "placeId": "ChIJsYxxpJ-5VTcRmuz2TCTlfXg",
+        "placeId2": "ChIJe7uNkWy5VTcRM1CmpL5kxJU"
+    },
+    {
+        "id": "2F828DD9",
+        "en": "Konabari",
+        "bn": "কোনাবাড়ি",
+        "placeId": "ChIJNRsaTtPdVTcRxvJP0dGBwHY",
+        "placeId2": "ChIJr-_tE6PdVTcRMiAimYKv7Q8"
+    },
+    {
+        "id": "7809892C",
+        "en": "Kuchiamor",
+        "bn": "কুচিয়ামোড়",
+        "placeId": "ChIJI1u6DUW_VTcRjZ0NEsv551o",
+        "placeId2": "ChIJYV_M9d-_VTcRrBGgWB-2NMM"
+    },
+    {
+        "id": "F78D876F",
+        "en": "Kuril Bishwa Road",
+        "bn": "কুড়িল বিশ্ব রোড",
+        "placeId": "ChIJS4jwRFDGVTcRIkwKFk1ak3k",
+        "placeId2": "ChIJN3s9f1_HVTcRgeiZtjMLbbg"
+    },
+    {
+        "id": "5F04F980",
+        "en": "Kuril Chourasta",
+        "bn": "কুড়িল চৌরাস্তা",
+        "placeId": "ChIJcZ1D8VHGVTcRNq0ltRizVmw",
+        "placeId2": "ChIJTyCesJbHVTcROml_iJIe-_0"
+    },
+    {
+        "id": "927F1AD2",
+        "en": "Modonpur",
+        "bn": "মদনপুর",
+        "placeId": "ChIJC4ldg2q0VTcRWwJ3ubTj9Pg",
+        "placeId2": "ChIJKWhJiGq0VTcR8r4axsjxbgY"
+    },
+    {
+        "id": "C87E9E5C",
+        "en": "Moddho Badda",
+        "bn": "মধ্য বাড্ডা",
+        "placeId": "ChIJWe4AdZHHVTcRLtYGDg48EDo",
+        "placeId2": "ChIJVz1wJzbHVTcRgr9ZLh6EFCw"
+    },
+    {
+        "id": "6C84BB36",
+        "en": "Malibagh Mor",
+        "bn": "মালিবাগ মোড়",
+        "placeId": "ChIJHxMskmG4VTcRcqO9zj3YUYI",
+        "placeId2": "ChIJRxuTjmG4VTcRkH708YNEjqk"
+    },
+    {
+        "id": "F65D9F21",
+        "en": "Malibagh Railgate",
+        "bn": "মালিবাগ রেলগেট",
+        "placeId": "ChIJpw71r2K4VTcRCNCcJ28VyRI",
+        "placeId2": "ChIJ3SY4rmK4VTcRb5gwsPkSEMo"
+    },
+    {
+        "id": "6C427B90",
+        "en": "Manik Mia Aveneue",
+        "bn": "মানিক মিয়া এভিনিউ",
+        "placeId": "ChIJfeTpOKu4VTcRxJCauZbp46M",
+        "placeId2": "ChIJ9490DBC5VTcR8wAPwMQ2R3g"
+    },
+    {
+        "id": "16DB3BFA",
+        "en": "Manik Nagar",
+        "bn": "মানিক নগর",
+        "placeId": "ChIJsS2ec0m4VTcRd3tyjj9hhtI",
+        "placeId2": "ChIJ-aNtNgC5VTcRyeHBOtpzR8g"
+    },
+    {
+        "id": "5264A291",
+        "en": "Motshow Bhaban",
+        "bn": "মৎস্য ভবন",
+        "placeId": "ChIJz_uIm2C5VTcRwXDyOCjQdto",
+        "placeId2": "ChIJz_uIm2C5VTcRwXDyOCjQdto"
+    },
+    {
+        "id": "E99429BF",
+        "en": "Matuail",
+        "bn": "মাতুয়াইল",
+        "placeId": "ChIJq1QDp2u3VTcRgZ9LnFzHtj0",
+        "placeId2": "ChIJYzdOqGu3VTcRWk7nZEqFsxc"
+    },
+    {
+        "id": "333ECBF4",
+        "en": "Mazar Road",
+        "bn": "মাজার রোড",
+        "placeId": "ChIJLwmTepLAVTcRpBgAHcQkddk",
+        "placeId2": "ChIJ7VSxRpLAVTcRwsAxtEyhI9U"
+    },
+    {
+        "id": "7BC56271",
+        "en": "Merul",
+        "bn": "মেরুল",
+        "placeId": "ChIJ03bP8I7HVTcRgWaDdNvDfNI",
+        "placeId2": "ChIJY_4TYI7HVTcRn5lQ7DpX4MI"
+    },
+    {
+        "id": "2F1CA479",
+        "en": "MES",
+        "bn": "এমইএস",
+        "placeId": "ChIJN3dIhPvGVTcRDL-q6E_Xy4M",
+        "placeId2": "ChIJ-x-y-_vGVTcRqPnEFjRQdRo"
+    },
+    {
+        "id": "8CF4B5AE",
+        "en": "Metro Hall",
+        "bn": "মেট্রো হল",
+        "placeId": "ChIJexlweQuxVTcR0uRMTev_THA",
+        "placeId2": "ChIJuQLqdwuxVTcRAbfv5rkOwb0"
+    },
+    {
+        "id": "37180559",
+        "en": "Mill gate",
+        "bn": "মিল গেট",
+        "placeId": "ChIJNd7e8VvEVTcReJ_dGE7M6iI",
+        "placeId2": "ChIJ0Tm_EwDFVTcRiIvayIXolis"
+    },
+    {
+        "id": "F0FF8DA6",
+        "en": "Mirpur 10",
+        "bn": "মিরপুর ১০",
+        "placeId": "ChIJ1Rr00izBVTcR8K8OEnVZ69Q",
+        "placeId2": "ChIJ4xYo8NbAVTcRZzbHGTyj_o8"
+    },
+    {
+        "id": "EA82441A",
+        "en": "Mirpur 11",
+        "bn": "মিরপুর ১১",
+        "placeId": "ChIJs3hrvxPBVTcRNM72R-imtxM",
+        "placeId2": "ChIJo4PsOz3BVTcRNCqqnVyCQ_0"
+    },
+    {
+        "id": "C5EC4018",
+        "en": "Mirpur 12",
+        "bn": "মিরপুর ১২",
+        "placeId": "ChIJQwtzITrBVTcR2QAc0FKcSrE",
+        "placeId2": "ChIJD3AFGDrBVTcROhkj0brEJCo"
+    },
+    {
+        "id": "D50956AB",
+        "en": "Mirpur 13",
+        "bn": "মিরপুর ১৩",
+        "placeId": "ChIJpzsOAFPHVTcRVjaiWdCjeIE",
+        "placeId2": "ChIJ_T7jZCvHVTcRmulaVZvGBUg"
+    },
+    {
+        "id": "7622CFC3",
+        "en": "Mirpur 14",
+        "bn": "মিরপুর ১৪",
+        "placeId": "ChIJ-06xMzvHVTcRGusfPz5GWbk",
+        "placeId2": "ChIJyVLp2b7BVTcR7MJcBiX6ows"
+    },
+    {
+        "id": "BCFAD603",
+        "en": "Mirpur 2",
+        "bn": "মিরপুর ২",
+        "placeId": "ChIJG9AA9yfBVTcRp3Im-g1U00Y",
+        "placeId2": "ChIJDYFC16TBVTcROh7UXSvr7sw"
+    },
+    {
+        "id": "197F80A9",
+        "en": "Mirpur DOHS",
+        "bn": "মিরপুর ডিওএইচএস",
+        "placeId": "ChIJLQphBWPHVTcR08D7vCQiRmY",
+        "placeId2": "ChIJ9-WiH7XGVTcR8Y3xzxeBHco"
+    },
+    {
+        "id": "B33E6265",
+        "en": "Mirpur 1",
+        "bn": "মিরপুর ১",
+        "placeId": "ChIJFah-yvLBVTcR-V_MZgcASNQ",
+        "placeId2": "ChIJ741WOmnBVTcRAdhCrh39vro"
+    },
+    {
+        "id": "8C5E695A",
+        "en": "Mitford Ghat",
+        "bn": "মিটফোর্ড ঘাট",
+        "placeId": "ChIJtXABPxy5VTcRmaflW6Sfvmg",
+        "placeId2": "ChIJgacpDJW5VTcRyjMk1hIm7CQ"
+    },
+    {
+        "id": "5835273C",
+        "en": "Mogbazar",
+        "bn": "মগবাজার",
+        "placeId": "ChIJIyefpPG5VTcRAhKKeaCjisw",
+        "placeId2": "ChIJCXDxxY-4VTcR0l3VVmlEzqo"
+    },
+    {
+        "id": "C40D602B",
+        "en": "Mohakhali",
+        "bn": "মহাখালী",
+        "placeId": "ChIJLXxxJWnHVTcRUwWoRPM8sww",
+        "placeId2": "ChIJX2o7KW_HVTcRR4J9L4NwisU"
+    },
+    {
+        "id": "A7448C9A",
+        "en": "Mohammadpur",
+        "bn": "মোহাম্মদপুর",
+        "placeId": "ChIJl893rOq_VTcR33N-LYm16FY",
+        "placeId2": "ChIJ4wV-_Vu_VTcR7ZHpwj1y4KY"
+    },
+    {
+        "id": "2703ECF1",
+        "en": "Motijheel",
+        "bn": "মতিঝিল",
+        "placeId": "ChIJw0vcIF65VTcRsflNXnB0L-w",
+        "placeId2": "ChIJmRQeCFC4VTcReTo8vSQeSFI"
+    },
+    {
+        "id": "E2AE51A4",
+        "en": "Mouchak",
+        "bn": "মৌচাক",
+        "placeId": "ChIJy3VWXea2VTcRLfg4WHTPg9o",
+        "placeId2": "ChIJDUtXlhm3VTcR8er7sS6Fx5Y"
+    },
+    {
+        "id": "C3171F58",
+        "en": "Mugda",
+        "bn": "মুগদা",
+        "placeId": "ChIJZQY4bYi5VTcRlQ-mOuYFFkg",
+        "placeId2": "ChIJuU3wHB25VTcRzO-lEaqUuMk"
+    },
+    {
+        "id": "BAB89706",
+        "en": "Nabisco",
+        "bn": "নাবিস্কো",
+        "placeId": "ChIJC9NfiWTHVTcRfMuO3RVS99I",
+        "placeId2": "ChIJOWiG8mTHVTcR9h4ATT8AqRw"
+    },
+    {
+        "id": "0ED9707B",
+        "en": "Nodda",
+        "bn": "নদ্দা",
+        "placeId": "ChIJGSsSW63HVTcR2uRmusLOtzc",
+        "placeId2": "ChIJ1RgszWvHVTcRFl3uE3CJgkY"
+    },
+    {
+        "id": "1A4CA10C",
+        "en": "Nondon Park",
+        "bn": "নন্দন পার্ক",
+        "placeId": "ChIJZVFwybjmVTcRo_9Yu9fYNGw",
+        "placeId2": "ChIJXx0GyLjmVTcRSO5eIGqy9R4"
+    },
+    {
+        "id": "C3B51139",
+        "en": "Nawabganj",
+        "bn": "নওয়াবগঞ্জ",
+        "placeId": "ChIJIWNfzC2_VTcRO-ZuWeug_YA",
+        "placeId2": "ChIJ1dMJHA2_VTcREoEAxbqC7mo"
+    },
+    {
+        "id": "B85B4D3A",
+        "en": "Noya Bazar",
+        "bn": "নয়া বাজার",
+        "placeId": "ChIJb-Tg5AG5VTcRS8OqWJFMKUg",
+        "placeId2": "ChIJXcur8QG5VTcRXSCPnERUQgQ"
+    },
+    {
+        "id": "3E514D4C",
+        "en": "New Market",
+        "bn": "নিউ মার্কেট",
+        "placeId": "ChIJlXSgPAC5VTcRTLOVeEOKRFo",
+        "placeId2": "ChIJ-yQbIsa4VTcRBC8BLDnfA2A"
+    },
+    {
+        "id": "84C287F3",
+        "en": "Nila Market",
+        "bn": "নীলা মার্কেট",
+        "placeId": "ChIJH_NMmQvJVTcRixIYVSP5j20",
+        "placeId2": "ChIJuYApOADJVTcR3L4PLba60Ag"
+    },
+    {
+        "id": "88B9E267",
+        "en": "Nilkhet",
+        "bn": "নীলক্ষেত",
+        "placeId": "ChIJjwyt7sW4VTcRgMW5V78J-Bs",
+        "placeId2": "ChIJ47wxNtG5VTcRupCKCKQeh44"
+    },
+    {
+        "id": "A15F40FF",
+        "en": "Nimtola",
+        "bn": "নিমতলা",
+        "placeId": "ChIJu46Xyga9VTcR1UBVCKjiyPw",
+        "placeId2": "ChIJiQapuQa9VTcRfXA3DmQ-5K8"
+    },
+    {
+        "id": "B7C971A9",
+        "en": "Nobinagar",
+        "bn": "নবীনগর",
+        "placeId": "ChIJzcQmw97pVTcRUO4PauOo6OM",
+        "placeId2": "ChIJRbNvKPnoVTcR0EDrJUCDIGk"
+    },
+    {
+        "id": "F8ABA330",
+        "en": "Norshinghopur",
+        "bn": "নরসিংহপুর",
+        "placeId": "ChIJT4cg6aLCVTcRpdkUOhDeRPI",
+        "placeId2": "ChIJ8Y3sub_DVTcRm9NLVZrXOdg"
+    },
+    {
+        "id": "F9C67182",
+        "en": "Notun Bazar",
+        "bn": "নতুন বাজার",
+        "placeId": "ChIJReXfkbrHVTcREAHGDIPD9ZE",
+        "placeId2": "ChIJ3T4AVwDHVTcRpGlTlU25hhs"
+    },
+    {
+        "id": "D30196CB",
+        "en": "Pallabi",
+        "bn": "পল্লবী",
+        "placeId": "ChIJxwb6ZCXBVTcRnPP-Slt0lrM",
+        "placeId2": "ChIJwUG_fCXBVTcR95Cwjl54aWI"
+    },
+    {
+        "id": "99343F90",
+        "en": "Paltan",
+        "bn": "পল্টন",
+        "placeId": "ChIJe8LF__a4VTcRwBYmv1FhbqQ",
+        "placeId2": "ChIJ0WD6Vva4VTcR5tHjsJUJ9gM"
+    },
+    {
+        "id": "7695CE89",
+        "en": "Police Plaza",
+        "bn": "পুলিশ প্লাজা",
+        "placeId": "ChIJeWosR4PHVTcR8el8ekG6akA",
+        "placeId2": "ChIJIzOPPgDHVTcRA8-nLmJi-UM"
+    },
+    {
+        "id": "32D0391E",
+        "en": "Polli Bidyut",
+        "bn": "পল্লী বিদ্যুৎ",
+        "placeId": "ChIJc_8LOl_oVTcR9ZJeF-Dzgh4",
+        "placeId2": "ChIJczBz1srpVTcRvdgv7uOoWeg"
+    },
+    {
+        "id": "D4BFE41D",
+        "en": "Postogola",
+        "bn": "পোস্তগোলা",
+        "placeId": "ChIJVaTUBMC5VTcRy9MArHORq1Q",
+        "placeId2": "ChIJF2D7BAC5VTcRT6ukaqr_oP8"
+    },
+    {
+        "id": "7ACCFE80",
+        "en": "Press Club",
+        "bn": "প্রেসক্লাব",
+        "placeId": "ChIJwT701vC4VTcRaDUY5gIUgEU",
+        "placeId2": "ChIJ86u0AwC5VTcRPWBcx2He8ck"
+    },
+    {
+        "id": "3D684AFB",
+        "en": "Proshika Mor",
+        "bn": "প্রশিকা মোড়",
+        "placeId": "ChIJ_05dt9jAVTcR4Y7zU4x9If8",
+        "placeId2": "ChIJIxhnp3XBVTcRNQKqOA-pDbE"
+    },
+    {
+        "id": "99DC45D7",
+        "en": "Purobi",
+        "bn": "পুরবি",
+        "placeId": "ChIJ04nFgCXBVTcR9mM7v3QMMvQ",
+        "placeId2": "ChIJsxzclSLBVTcRe4LPkF4JEmI"
+    },
+    {
+        "id": "BFBD192B",
+        "en": "Rainkhola",
+        "bn": "রাইনখোলা",
+        "placeId": "ChIJN6StXeHAVTcRxtemnyZ9gHo",
+        "placeId2": "ChIJr5j2XuHAVTcRdaiEvKxaD5M"
+    },
+    {
+        "id": "78B9DC00",
+        "en": "Rajarbag",
+        "bn": "রাজারবাগ",
+        "placeId": "ChIJcZteLgC5VTcRggOtn7KAUGE",
+        "placeId2": "ChIJ_c0nHGe5VTcRK6W1UM8XQkE"
+    },
+    {
+        "id": "41DAEF8C",
+        "en": "Rajendropur",
+        "bn": "রাজেন্দ্রপুর",
+        "placeId": "ChIJXREsa-G7VTcREpEjil2Lrlg",
+        "placeId2": "ChIJwVq8E-G7VTcROditxA7gnkA"
+    },
+    {
+        "id": "36F0C0E1",
+        "en": "Rajlakshmi",
+        "bn": "রাজলক্ষ্মী",
+        "placeId": "ChIJC-ruJyTEVTcRk6VeSGaIsaM",
+        "placeId2": "ChIJA9w0jT_FVTcRp98Zcicx0bk"
+    },
+    {
+        "id": "F0277EE1",
+        "en": "Rampura Bazar",
+        "bn": "রামপুরা বাজার",
+        "placeId": "ChIJ9wKqIXm4VTcRB09oScb3RIU",
+        "placeId2": "ChIJp3q39Hi4VTcR4Q9WQM9uQvU"
+    },
+    {
+        "id": "A1BD7AD7",
+        "en": "Rampura Bridge",
+        "bn": "রামপুরা ব্রিজ",
+        "placeId": "ChIJ3bRYwYjHVTcRKd6IoD3zz-w",
+        "placeId2": "ChIJ0dGvy4jHVTcRwJo3cmtz1IU"
+    },
+    {
+        "id": "B4EF7261",
+        "en": "Ray Saheb Bazar",
+        "bn": "রায় সাহেব বাজার",
+        "placeId": "ChIJSWzuFQC5VTcRV7AZ0xEXLoA",
+        "placeId2": "ChIJcd1WhSS5VTcReaAOF5IznF0"
+    },
+    {
+        "id": "487F0811",
+        "en": "Rayerbag",
+        "bn": "রায়েরবাগ",
+        "placeId": "ChIJYbTsTWS3VTcRucEvuMeVOLw",
+        "placeId2": "ChIJK79CrWW3VTcRMh3IGk2vSgQ"
+    },
+    {
+        "id": "39B1C344",
+        "en": "Ring Road",
+        "bn": "রিং রোড",
+        "placeId": "ChIJb1TxzaPAVTcR0IGXQ4DfxBc",
+        "placeId2": "ChIJ30DW0aPAVTcRkEprqm8_mXM"
+    },
+    {
+        "id": "E75A153D",
+        "en": "Rupnagar",
+        "bn": "রূপনগর",
+        "placeId": "ChIJ98zEbA7BVTcRraxRmRHrAE8",
+        "placeId2": "ChIJXdfybQ7BVTcR5ixSxdbVRTk"
+    },
+    {
+        "id": "119EB8E0",
+        "en": "Sadarghat",
+        "bn": "সদরঘাট",
+        "placeId": "ChIJ4c89rgC5VTcRkdtHqcOfAUM",
+        "placeId2": "ChIJI8WBpQC5VTcRTCu0dDYy3zY"
+    },
+    {
+        "id": "54C855A9",
+        "en": "Salimullah Road",
+        "bn": "সলিমুল্লাহ রোড",
+        "placeId": "EiBTYWxpbXVsbGFoIFJkLCBEaGFrYSwgQmFuZ2xhZGVzaCIuKiwKFAoSCZnYblBYv1U3EblAIDSjHfS9EhQKEgmBawKHsLhVNxHCBFndu2Oljw",
+        "placeId2": "EiBTYWxpbXVsbGFoIFJkLCBEaGFrYSwgQmFuZ2xhZGVzaCIuKiwKFAoSCZnYblBYv1U3EblAIDSjHfS9EhQKEgmBawKHsLhVNxHCBFndu2Oljw"
+    },
+    {
+        "id": "28711653",
+        "en": "Sat Rasta",
+        "bn": "সাতরাস্তা",
+        "placeId": "ChIJHR1VBZy4VTcRCqyJIlM_vOw",
+        "placeId2": "ChIJZajyRgC5VTcRf3SRQ1It7-E"
+    },
+    {
+        "id": "16082BBE",
+        "en": "Saudi colony",
+        "bn": "সৌদি কলোনি",
+        "placeId": "ChIJybnXWkHHVTcRmlwk7HOwFfg",
+        "placeId2": "ChIJybnXWkHHVTcRmlwk7HOwFfg"
+    },
+    {
+        "id": "3E2C3F9C",
+        "en": "Savar",
+        "bn": "সাভার",
+        "placeId": "ChIJqx4kh6zrVTcRwd2xZaAtby0",
+        "placeId2": "ChIJmSFS_9HrVTcRpi5GCLryKKQ"
+    },
+    {
+        "id": "C6FEF94B",
+        "en": "Savar Cantonment",
+        "bn": "সাভার সেনানিবাস",
+        "placeId": "ChIJcYWlu1ToVTcRTEUoq54YPp4",
+        "placeId2": "ChIJpYzQvVToVTcR3nUuo3la0s8"
+    },
+    {
+        "id": "EFB25553",
+        "en": "Sayedabad",
+        "bn": "সায়েদাবাদ",
+        "placeId": "ChIJHSvQObO5VTcR40eDl2fKVoM",
+        "placeId2": "ChIJZRsvMrO5VTcRBg5OYfqz9V4"
+    },
+    {
+        "id": "CE62C78A",
+        "en": "Science Lab",
+        "bn": "সায়েন্স ল্যাব",
+        "placeId": "ChIJtRbJ4be4VTcROLBjCc_KDPQ",
+        "placeId2": "ChIJ9eFcJA25VTcR8L6Qbq-k9r0"
+    },
+    {
+        "id": "A9D18C9A",
+        "en": "Shahbag",
+        "bn": "শাহবাগ",
+        "placeId": "ChIJoUvB2-q4VTcRLINwjd_MnJs",
+        "placeId2": "ChIJoUvB2-q4VTcRLINwjd_MnJs"
+    },
+    {
+        "id": "7D26210C",
+        "en": "Shahjadpur",
+        "bn": "শাহজাদপুর",
+        "placeId": "ChIJZ9qSkr3HVTcRL8vX-mgJGvI",
+        "placeId2": "ChIJzytPeLzHVTcRagLZ02PWrbk"
+    },
+    {
+        "id": "8898484E",
+        "en": "Shankar",
+        "bn": "শঙ্কর",
+        "placeId": "ChIJEQjVKE6_VTcR2wV0i0uXP-o",
+        "placeId2": "ChIJH77QJ06_VTcReM_EZhoMuko"
+    },
+    {
+        "id": "F26B49A5",
+        "en": "Shantinagar",
+        "bn": "শান্তিনগর",
+        "placeId": "ChIJHWQBQ525VTcRNgbcwue5oEA",
+        "placeId2": "ChIJJcX2hoq4VTcRN0bqYOjZHOM"
+    },
+    {
+        "id": "F3B3B549",
+        "en": "Shewra",
+        "bn": "শেওড়া",
+        "placeId": "ChIJCdoN7N3HVTcRTnM6aO0gYjQ",
+        "placeId2": "ChIJDbVgCxzHVTcRE_Ffn42nLJE"
+    },
+    {
+        "id": "89F230E3",
+        "en": "Shewrapara",
+        "bn": "শেওড়াপাড়া",
+        "placeId": "ChIJfcSrxDTHVTcRb_DdCUlYltY",
+        "placeId2": "ChIJserIx8HHVTcRoCowXe4nFzs"
+    },
+    {
+        "id": "2A94EECA",
+        "en": "Shia Masjid",
+        "bn": "শিয়া মসজিদ",
+        "placeId": "ChIJ4wYHtO6_VTcRj9OXnRQkE4g",
+        "placeId2": "ChIJ4wYHtO6_VTcRj9OXnRQkE4g"
+    },
+    {
+        "id": "7C46CAC7",
+        "en": "Shib Bari",
+        "bn": "শিব বাড়ি",
+        "placeId": "ChIJC0S3zv7aVTcR8ztSPHoxZkw",
+        "placeId2": "ChIJR23vzf7aVTcRgyleToW245I"
+    },
+    {
+        "id": "9454F183",
+        "en": "Shibu Market",
+        "bn": "শিবু মার্কেট",
+        "placeId": "ChIJ-7o5BwCxVTcRDXg45N4jlJM",
+        "placeId2": "ChIJ-7o5BwCxVTcRDXg45N4jlJM"
+    },
+    {
+        "id": "D42BABAC",
+        "en": "Shimultola",
+        "bn": "শিমুলতলা",
+        "placeId": "ChIJBcrhYxHoVTcRdQSMIJgGk18",
+        "placeId2": "ChIJBcrhYxHoVTcR14axFYbsd_0"
+    },
+    {
+        "id": "B80FDB41",
+        "en": "Shishu Mela",
+        "bn": "শিশুমেলা",
+        "placeId": "ChIJL4tutq_AVTcRfsgk5uAtMY8",
+        "placeId2": "ChIJG6dpt6_AVTcRZYW3XFTs4qA"
+    },
+    {
+        "id": "3E170E6B",
+        "en": "Shonir Akhra",
+        "bn": "শনির আখরা",
+        "placeId": "ChIJeTHPq2K3VTcRGyGBqYdBIJs",
+        "placeId2": "ChIJjRClqWK3VTcRfx5jlbmoZ48"
+    },
+    {
+        "id": "36F441FA",
+        "en": "Showari Ghat",
+        "bn": "শোয়ারী ঘাট",
+        "placeId": "ChIJyfXaEx-5VTcRB0e--qm9rVY",
+        "placeId2": "ChIJyfXaEx-5VTcRB0e--qm9rVY"
+    },
+    {
+        "id": "2B56ABBD",
+        "en": "Shukrabad",
+        "bn": "শুক্রাবাদ",
+        "placeId": "ChIJo1E8oq24VTcRQFWulMd1B1c",
+        "placeId2": "ChIJKyYGoK24VTcRJ3SpiFqi8P8"
+    },
+    {
+        "id": "F1CBA06B",
+        "en": "Shyamoli",
+        "bn": "শ্যামলী",
+        "placeId": "ChIJJcSTAbDAVTcRnPpfiXyqjRs",
+        "placeId2": "ChIJraVHBa_AVTcRkHlAHTK50No"
+    },
+    {
+        "id": "9CD10047",
+        "en": "Sign Board",
+        "bn": "সাইন বোর্ড",
+        "placeId": "ChIJnwKk_xi3VTcRfCjmV83-zS8",
+        "placeId2": "ChIJD_gh9hi3VTcRFEORPIaKPEU"
+    },
+    {
+        "id": "EC8D2269",
+        "en": "Sikder Medical College",
+        "bn": "সিকদার মেডিকেল কলেজ",
+        "placeId": "ChIJzaqVAwC_VTcRQ1pjgoCd42c",
+        "placeId2": "ChIJY4MLzkC_VTcRXgl04BsY-gg"
+    },
+    {
+        "id": "DFA0EB7D",
+        "en": "Soinik Club",
+        "bn": "সৈনিক ক্লাব",
+        "placeId": "ChIJ185PW4HHVTcRFc1Bq86kCjM",
+        "placeId2": "ChIJM4kkbHTHVTcRQ7qo_8Be4Co"
+    },
+    {
+        "id": "43DC4D5A",
+        "en": "Sony Cinema Hall",
+        "bn": "সনি সিনেমা হল",
+        "placeId": "ChIJD1pw0vzBVTcRhUmQ5rdiCLs",
+        "placeId2": "ChIJrzU8hInBVTcREdPUlPlpHY0"
+    },
+    {
+        "id": "F232C6C3",
+        "en": "South Banasree",
+        "bn": "দক্ষিণ বনশ্রী",
+        "placeId": "ChIJF01TavW4VTcRJ_T7HONWR3g",
+        "placeId2": "ChIJF01TavW4VTcRJ_T7HONWR3g"
+    },
+    {
+        "id": "2669500D",
+        "en": "Sreenagar",
+        "bn": "শ্রীনগর",
+        "placeId": "ChIJqWZVp3aYVTcRe5xTA9wmHso",
+        "placeId2": "ChIJub2r82iZVTcRm-qofDOCR40"
+    },
+    {
+        "id": "E9585D66",
+        "en": "Sreepur",
+        "bn": "শ্রীপুর",
+        "placeId": "ChIJx9eLra3nVTcRBNEVBhDZFPY",
+        "placeId2": "ChIJkXeyudDnVTcRb9kGCxtZp98"
+    },
+    {
+        "id": "C740FA03",
+        "en": "Staff Road",
+        "bn": "স্টাফ রোড",
+        "placeId": "ChIJi2KKSP3GVTcR4ra6QAzYLuI",
+        "placeId2": "ChIJZe9-Ew3HVTcRA6-rJpPHwhE"
+    },
+    {
+        "id": "E43B6367",
+        "en": "Station Road",
+        "bn": "স্টেশন রোড",
+        "placeId": "ChIJJ_cIkX_FVTcR9JZC2tSbwXY",
+        "placeId2": "ChIJN-5EP0XEVTcRAX-Y26KZysU"
+    },
+    {
+        "id": "72769DED",
+        "en": "Sura Bari",
+        "bn": "সুরা বাড়ী",
+        "placeId": "ChIJ63JgTkjdVTcRl--B2XbNfpo",
+        "placeId2": "ChIJ63JgTkjdVTcRl--B2XbNfpo"
+    },
+    {
+        "id": "326C5569",
+        "en": "Tajmahal Road",
+        "bn": "তাজমহল রোড",
+        "placeId": "ChIJsxrXmqfAVTcRYtdNahCSwp8",
+        "placeId2": "ChIJsxrXmqfAVTcRYtdNahCSwp8"
+    },
+    {
+        "id": "A37264FC",
+        "en": "Taltola",
+        "bn": "তালতলা",
+        "placeId": "ChIJwdlENUrHVTcRD3bqZf6nTek",
+        "placeId2": "ChIJsYl87QnHVTcRt4lfU-Ot7KA"
+    },
+    {
+        "id": "AAC5E1D0",
+        "en": "Tarabo",
+        "bn": "তারাবো",
+        "placeId": "ChIJQf7_b-u3VTcReb7v9hqgBOk",
+        "placeId2": "ChIJBR3HVE-3VTcRZzWv6-K9KAk"
+    },
+    {
+        "id": "47D2D7B7",
+        "en": "Technical",
+        "bn": "টেকনিক্যাল",
+        "placeId": "ChIJC4hijO_BVTcRvwy_oQND3os",
+        "placeId2": "ChIJnU2ECpTAVTcR6TqpZKPERNo"
+    },
+    {
+        "id": "A2BB403D",
+        "en": "Tikatuli",
+        "bn": "টিকাটুলি",
+        "placeId": "ChIJS-NHJMu5VTcRbBrnYgUi28M",
+        "placeId2": "ChIJ8ZgTBAC5VTcRjazsu8cx4p4"
+    },
+    {
+        "id": "53789D37",
+        "en": "Tongi",
+        "bn": "টঙ্গী",
+        "placeId": "ChIJ7e4IE3fFVTcRxmBGYDI5cj8",
+        "placeId2": "ChIJK3elVgfFVTcRUFlFXkXWH1M"
+    },
+    {
+        "id": "EE2A1A18",
+        "en": "TT para",
+        "bn": "টিটি পাড়া",
+        "placeId": "ChIJvxMKAkm4VTcRfs0FRwWQdgM",
+        "placeId2": "ChIJeU9gr1a5VTcRHq8LYFK3Fz8"
+    },
+    {
+        "id": "CE3FB7A2",
+        "en": "Uttar Badda",
+        "bn": "উত্তর বাড্ডা",
+        "placeId": "ChIJH85Sh33HVTcReQvRwg3zFrc",
+        "placeId2": "ChIJ85xFEarHVTcR3f_05XovsX4"
+    },
+    {
+        "id": "262EEC52",
+        "en": "Vashantek",
+        "bn": "ভাসানটেক",
+        "placeId": "ChIJgTw63d_GVTcRuqb992gQ12w",
+        "placeId2": "ChIJgTw63d_GVTcRuqb992gQ12w"
+    },
+    {
+        "id": "7259C114",
+        "en": "Vulta",
+        "bn": "ভূলতা",
+        "placeId": "ChIJV4u_1ozKVTcR3daoIXmpPnM",
+        "placeId2": "ChIJh-oX0ozKVTcRmZM4u28tEqs"
+    },
+    {
+        "id": "A4050021",
+        "en": "Wireless Gate",
+        "bn": "ওয়্যারলেস গেট",
+        "placeId": "ChIJa6OK1XPHVTcRO76wVEyFltg",
+        "placeId2": "ChIJ5X1tBSfHVTcRGQRFDs7h74g"
+    },
+    {
+        "id": "6F70EB71",
+        "en": "Workshop",
+        "bn": "ওয়ার্কশপ",
+        "placeId": "ChIJmwilPaPHVTcRNm_4g_LB2q4",
+        "placeId2": "ChIJmwilPaPHVTcRNm_4g_LB2q4"
+    },
+    {
+        "id": "01E9635C",
+        "en": "Zia Uddyan",
+        "bn": "জিয়া উদ্যান",
+        "placeId": "ChIJr5jNClfHVTcR_kr6CtO0pR8",
+        "placeId2": "ChIJXw6CLcLHVTcRL6hhjFvPyIw"
+    },
+    {
+        "id": "9AF3CA00",
+        "en": "Zirabo",
+        "bn": "জিরাবো",
+        "placeId": "ChIJhZUoHn3DVTcRHegBsXO6nmY",
+        "placeId2": "ChIJV3CRRvPCVTcRCT4upb6YI8Y"
+    },
+    {
+        "id": "118A847A",
+        "en": "Zirani Bazar",
+        "bn": "জিরানী বাজার",
+        "placeId": "ChIJVwOsdZXnVTcR3d54ub-mvvE",
+        "placeId2": "ChIJ9bkRL3_nVTcREdXqrHXgHAo"
+    }
+]
