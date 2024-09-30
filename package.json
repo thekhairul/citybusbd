@@ -1,5 +1,16 @@
 {
   "name": "citybusbd",
+  "description": "A Next.js app to find available buses between two places in cities of Bangladesh",
+  "keywords": [
+    "nextjs",
+    "reactjs",
+    "mongodb",
+    "bus app",
+    "citybusbd",
+    "Dhaka Bus App"
+  ],
+  "author": "Khairul Anik",
+  "author_email": "thekhairul.office@gmail.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,11 +22,9 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
-    "@fontsource/roboto": "^5.0.15",
     "@mui/icons-material": "^6.1.0",
     "@mui/lab": "^6.0.0-beta.10",
     "@mui/material": "^6.1.0",
-    "framer-motion": "^4",
     "mongodb": "^6.5.0",
     "next": "^13.5.7",
     "react": "^18.3.1",
@@ -26,6 +35,6 @@
   "devDependencies": {
     "@types/react": "^18.3.8",
     "eslint": "7",
-    "eslint-config-next": "12.0.4"
+    "eslint-config-next": "13.5.7"
   }
 }

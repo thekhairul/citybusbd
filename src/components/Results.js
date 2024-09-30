@@ -36,7 +36,7 @@ const Results = ({ result: { from, to, buses } }) => {
                     <Box className="font-sans" sx={{ bgcolor: '#fff', borderLeft: '1px solid #ccc', padding: 4, display: 'flex', flexGrow: 1, justifyContent: 'center', alignItems: 'center', gap: 1, fontWeight: 700, fontSize: 20 }}>
                         <AttachMoneyIcon />
                         <span>{price < 10 ? 10 : price} Tk</span>
-                        <Tooltip title="2.42 Tk per km and minimum fair is 10 Tk" arrow>
+                        <Tooltip title="2.42 Tk per km and minimum fair is 10 Tk" enterTouchDelay={0} arrow>
                             <InfoOutlinedIcon></InfoOutlinedIcon>
                         </Tooltip>
                     </Box>
@@ -46,7 +46,7 @@ const Results = ({ result: { from, to, buses } }) => {
             <Box sx={{ paddingY: 2 }}>
                 {buses.map((bus, index) => {
                     return (
-                        <Accordion key={bus._id} defaultExpanded={index === 0}>
+                        <Accordion key={bus._id}>
                             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                                 <Box sx={{ width: '100%', display: 'flex', alignItems: 'center', gap: 2, flexWrap: 'wrap', paddingRight: 2 }}>
                                     <h4 className="font-sans">{bus.name}</h4>

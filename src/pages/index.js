@@ -102,7 +102,7 @@ export default function Home({ stops }) {
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   const res = await fetch(`${server}/api/stops`)
   const stops = await res.json()
 
