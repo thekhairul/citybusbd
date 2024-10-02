@@ -17,8 +17,12 @@ const stopSelected = {
 }
 
 const Results = ({ result: { from, to, buses } }) => {
-    const b1 = buses[0];
-    const distance = b1.stopagePairs[`${from}:${to}`]?.distance || b1.stopagePairs[`${to}:${from}`]?.distance;
+    const totalDistance = buses.reduce((total, bus) => {
+        const [stopage1, stopage2] = bus.stopages.filter(stop => stop.id === from || stop.id === to);
+        const distance = Math.abs(stopage1.distanceFromRoot - stopage2.distanceFromRoot);
+        return total + distance;
+    }, 0);
+    const distance = (totalDistance / buses.length) / 1000; // average distance in km
     const price = distance > 0 ? Math.ceil(distance * 2.42) : 0;
 
     return (
@@ -31,12 +35,15 @@ const Results = ({ result: { from, to, buses } }) => {
                 <Box sx={{ display: 'flex' }}>
                     <Box className="font-sans" sx={{ bgcolor: '#fff', padding: 4, display: 'flex', flexGrow: 1, justifyContent: 'center', alignItems: 'center', gap: 1, fontWeight: 700, fontSize: 20 }}>
                         <AltRouteOutlinedIcon />
-                        <span>{distance} km</span>
+                        <span>{distance.toPrecision(2)} km</span>
+                        <Tooltip title="approximate average distance" enterTouchDelay={0} arrow>
+                            <InfoOutlinedIcon></InfoOutlinedIcon>
+                        </Tooltip>
                     </Box>
                     <Box className="font-sans" sx={{ bgcolor: '#fff', borderLeft: '1px solid #ccc', padding: 4, display: 'flex', flexGrow: 1, justifyContent: 'center', alignItems: 'center', gap: 1, fontWeight: 700, fontSize: 20 }}>
                         <AttachMoneyIcon />
                         <span>{price < 10 ? 10 : price} Tk</span>
-                        <Tooltip title="2.42 Tk per km and minimum fair is 10 Tk" enterTouchDelay={0} arrow>
+                        <Tooltip title="approximate price for 2.42 Tk per km. minimum fair 10 Tk" enterTouchDelay={0} arrow>
                             <InfoOutlinedIcon></InfoOutlinedIcon>
                         </Tooltip>
                     </Box>
