@@ -25,7 +25,12 @@ export default function Home({ stops }) {
     const res = await fetch(`${server}/api/bus?` + new URLSearchParams({
       from: fromValue.id,
       to: toValue.id
-    }).toString());
+    }).toString(), {
+      cache: 'force-cache',
+      next: {
+        revalidate: 86400
+      }
+    });
     const buses = await res.json();
     if (!buses.length) {
       toast.error('No buses found', {
