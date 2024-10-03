@@ -36,7 +36,7 @@ const Results = ({ result: { from, to, buses } }) => {
                     <Box className="font-sans" sx={{ bgcolor: '#fff', paddingY: 4, paddingX: 2, display: 'flex', flexGrow: 1, justifyContent: 'center', alignItems: 'center', gap: 1, fontWeight: 700, fontSize: 20 }}>
                         <AltRouteOutlinedIcon />
                         <span>{distance.toPrecision(2)} km</span>
-                        <Tooltip title={`${totalDistance} ${distance}`} enterTouchDelay={0} arrow>
+                        <Tooltip title="approximate average distance" enterTouchDelay={0} arrow>
                             <InfoOutlinedIcon></InfoOutlinedIcon>
                         </Tooltip>
                     </Box>
