@@ -33,17 +33,17 @@ const Results = ({ result: { from, to, buses } }) => {
                     <span>Found {buses.length} bus{buses.length > 1 ? 'es' : ''}</span>
                 </Box>
                 <Box sx={{ display: 'flex' }}>
-                    <Box className="font-sans" sx={{ bgcolor: '#fff', padding: 4, display: 'flex', flexGrow: 1, justifyContent: 'center', alignItems: 'center', gap: 1, fontWeight: 700, fontSize: 20 }}>
+                    <Box className="font-sans" sx={{ bgcolor: '#fff', paddingY: 4, paddingX: 2, display: 'flex', flexGrow: 1, justifyContent: 'center', alignItems: 'center', gap: 1, fontWeight: 700, fontSize: 20 }}>
                         <AltRouteOutlinedIcon />
                         <span>{distance.toPrecision(2)} km</span>
-                        <Tooltip title="approximate average distance" enterTouchDelay={0} arrow>
+                        <Tooltip title={`${totalDistance} ${distance}`} enterTouchDelay={0} arrow>
                             <InfoOutlinedIcon></InfoOutlinedIcon>
                         </Tooltip>
                     </Box>
-                    <Box className="font-sans" sx={{ bgcolor: '#fff', borderLeft: '1px solid #ccc', padding: 4, display: 'flex', flexGrow: 1, justifyContent: 'center', alignItems: 'center', gap: 1, fontWeight: 700, fontSize: 20 }}>
+                    <Box className="font-sans" sx={{ bgcolor: '#fff', borderLeft: '1px solid #ccc', paddingY: 4, paddingX: 2, display: 'flex', flexGrow: 1, justifyContent: 'center', alignItems: 'center', gap: 1, fontWeight: 700, fontSize: 20 }}>
                         <AttachMoneyIcon />
                         <span>{price < 10 ? 10 : price} Tk</span>
-                        <Tooltip title="approximate price for 2.42 Tk per km. minimum fair 10 Tk" enterTouchDelay={0} arrow>
+                        <Tooltip title="2.42 Tk per km. minimum fair 10 Tk" enterTouchDelay={0} arrow>
                             <InfoOutlinedIcon></InfoOutlinedIcon>
                         </Tooltip>
                     </Box>
