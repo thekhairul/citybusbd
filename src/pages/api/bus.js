@@ -1,3 +1,4 @@
+import findBus from "@/lib/busFinder";
 import connectDB from "@/lib/mongodb";
 
 export default async function handler(req, res) {
@@ -8,8 +9,9 @@ export default async function handler(req, res) {
     case 'GET':
       const { from, to } = req.query;
       if (!from || !to) res.status(500).send({ message: 'Bad request. Please provide both from and to locations.' });
-      const filter = { stopages: { $all: [{ $elemMatch: { id: from } }, { $elemMatch: { id: to } }] } };
-      const buses = await collection.find(filter).toArray();
+      // const filter = { stopages: { $all: [{ $elemMatch: { id: from } }, { $elemMatch: { id: to } }] } };
+      // const buses = await collection.find(filter).toArray();
+      const buses = findBus(from, to, !from && !to);
       res.status(200).json(buses);
       break;
     case 'POST':
