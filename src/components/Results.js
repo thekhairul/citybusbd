@@ -5,6 +5,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import SyncAltIcon from '@mui/icons-material/SyncAlt';
 import { Accordion, AccordionDetails, AccordionSummary, Box, Tooltip } from '@mui/material';
+import { motion } from 'framer-motion';
 
 const stopNormal = {
     padding: 1,
@@ -26,7 +27,7 @@ const Results = ({ result: { from, to, buses } }) => {
     const price = distance > 0 ? Math.ceil(distance * 2.42) : 0;
 
     return (
-        <>
+        <motion.div key={`${from}-${to}`} initial={{ opacity: 0, translateY: '20px' }} animate={{ opacity: 1, translateY: 0 }} transition={{ duration: 0.5 }}>
             <Box sx={{ borderRadius: 1, marginBottom: 1, overflow: 'hidden' }}>
                 <Box className="font-sans" sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1, bgcolor: '#fff', borderBottom: '1px solid #ccc', padding: 2, textAlign: 'center', fontWeight: 700, fontSize: 20 }}>
                     <DirectionsBusFilledTwoToneIcon fontSize="large" />
@@ -73,7 +74,7 @@ const Results = ({ result: { from, to, buses } }) => {
                     );
                 })}
             </Box>
-        </>
+        </motion.div>
     );
 };
 

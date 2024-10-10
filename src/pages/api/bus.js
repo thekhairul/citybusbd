@@ -8,10 +8,11 @@ export default async function handler(req, res) {
   switch (req.method) {
     case 'GET':
       const { from, to } = req.query;
-      if (!from || !to) res.status(500).send({ message: 'Bad request. Please provide both from and to locations.' });
+      const fromTo = [from, to].filter(Boolean);
+      if (fromTo.length === 1) res.status(500).send({ message: 'Bad request. Please provide both from and to locations.' });
       // const filter = { stopages: { $all: [{ $elemMatch: { id: from } }, { $elemMatch: { id: to } }] } };
       // const buses = await collection.find(filter).toArray();
-      const buses = findBus(from, to, !from && !to);
+      const buses = findBus(from, to, fromTo.length === 0);
       res.status(200).json(buses);
       break;
     case 'POST':
