@@ -22,10 +22,17 @@ export default function Home({ stops }) {
   const handleSearch = async () => {
     if (!fromValue || !toValue) return;
     setLoading(true);
-    const res = await fetch(`${server}/api/bus?` + new URLSearchParams({
+    const query = new URLSearchParams({
       from: fromValue.id,
       to: toValue.id
-    }).toString());
+    }).toString();
+    const res = await fetch(`${server}/api/bus?${query}`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'referer': server
+      },
+    });
     const buses = await res.json();
     if (!buses.length) {
       toast.error('No buses found', {
@@ -103,7 +110,13 @@ export default function Home({ stops }) {
 }
 
 export async function getStaticProps(context) {
-  const res = await fetch(`${server}/api/stops`)
+  const res = await fetch(`${server}/api/stops`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      'referer': server
+    },
+  })
   const stops = await res.json()
 
   if (!stops) {
