@@ -1,11 +1,11 @@
 import AltRouteOutlinedIcon from '@mui/icons-material/AltRouteOutlined';
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import DirectionsBusFilledTwoToneIcon from '@mui/icons-material/DirectionsBusFilledTwoTone';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import SyncAltIcon from '@mui/icons-material/SyncAlt';
 import { Accordion, AccordionDetails, AccordionSummary, Box, Tooltip } from '@mui/material';
 import { motion } from 'framer-motion';
+import { TbCurrencyTaka } from "react-icons/tb";
 
 const stopNormal = {
     padding: 1,
@@ -42,7 +42,7 @@ const Results = ({ result: { from, to, buses } }) => {
                         </Tooltip>
                     </Box>
                     <Box className="font-sans" sx={{ bgcolor: '#fff', borderLeft: '1px solid #ccc', paddingY: 4, paddingX: 2, display: 'flex', flexGrow: 1, justifyContent: 'center', alignItems: 'center', gap: 1, fontWeight: 700, fontSize: 20 }}>
-                        <AttachMoneyIcon />
+                        <TbCurrencyTaka />
                         <span>{price < 10 ? 10 : price} Tk</span>
                         <Tooltip title="2.42 Tk per km. minimum fair 10 Tk" enterTouchDelay={0} arrow>
                             <InfoOutlinedIcon></InfoOutlinedIcon>
