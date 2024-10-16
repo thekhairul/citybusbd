@@ -1,4 +1,4 @@
-const CACHE_NAME = 'citybusbd-cache-v2';
+const CACHE_NAME = 'citybusbd-cache-v3';
 const urlsToCache = [
   '/',
   '/offline.html',
@@ -19,14 +19,17 @@ self.addEventListener('activate', (event) => {
   console.log('Activating new service worker');
   event.waitUntil(
     caches.keys().then((cacheNames) => {
-      return Promise.all(
-        cacheNames.map((cacheName) => {
+      return Promise.all([
+        // Delete old caches
+        ...cacheNames.map((cacheName) => {
           if (cacheName !== CACHE_NAME) {
             console.log('Deleting old cache:', cacheName);
             return caches.delete(cacheName);
           }
-        })
-      );
+        }),
+        // Take control of all clients
+        self.clients.claim()
+      ]);
     })
   );
 });

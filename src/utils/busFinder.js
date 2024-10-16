@@ -1,6 +1,6 @@
 import { server } from "~/config";
 
-const CACHE_NAME = 'citybusbd-cache-v2';
+const CACHE_NAME = 'citybusbd-cache-v3';
 const BUS_CACHE_KEY = '/api/bus';
 
 async function getCachedBuses() {

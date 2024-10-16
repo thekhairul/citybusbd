@@ -1,4 +1,4 @@
-const CACHE_NAME = 'citybusbd-cache-v2';
+const CACHE_NAME = 'citybusbd-cache-v3';
 const LAST_UPDATED_KEY = 'lastBusUpdatedAt';
 
 export const syncBusCache = async (newBusUpdatedAt) => {

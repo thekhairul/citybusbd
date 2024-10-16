@@ -2,6 +2,7 @@ export async function registerServiceWorker() {
   if ('serviceWorker' in navigator) {
     try {
       const registration = await navigator.serviceWorker.register('/sw.js');
+      registration.update();
       console.log('Service Worker registration successful with scope: ', registration.scope);
     } catch (err) {
       console.error('Service Worker registration failed: ', err);
