@@ -1,9 +1,11 @@
 import Results from "@/components/Results";
+import { findBus } from "@/utils/busFinder";
+import { syncBusCache } from "@/utils/pwaCache";
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import { LoadingButton } from '@mui/lab';
 import { Autocomplete, Box, Container, TextField } from "@mui/material";
 import Head from "next/head";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { toast } from 'react-toastify';
 import { server } from "~/config";
 
@@ -22,26 +24,22 @@ export default function Home({ stops }) {
   const handleSearch = async () => {
     if (!fromValue || !toValue) return;
     setLoading(true);
-    const query = new URLSearchParams({
-      from: fromValue.id,
-      to: toValue.id
-    }).toString();
-    const res = await fetch(`${server}/api/bus?${query}`, {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-        'referer': server
-      },
-    });
-    const buses = await res.json();
-    if (!buses.length) {
-      toast.error('No buses found', {
-        position: "bottom-center",
-        autoClose: 3000,
+    findBus(fromValue, toValue)
+      .then(buses => {
+        if (buses.length) setMatchedBuses(buses);
+        else {
+          setMatchedBuses([]);
+          toast.error(`No buses found from ${fromValue.en} to ${toValue.en}`, {
+          position: "bottom-center",
+          autoClose: 6000,
+        });}
+      })
+      .catch(error => {
+        console.error('Error in findBus:', error);
+      })
+      .finally(() => {
+        setLoading(false);
       });
-    }
-    setMatchedBuses(buses);
-    setLoading(false);
   };
 
   const result = useMemo(() => {
@@ -51,6 +49,16 @@ export default function Home({ stops }) {
       buses: matchedBuses
     }
   }, [matchedBuses]);
+
+  useEffect(() => {
+    const fetchBusUpdatedAt = async () => {
+      const res = await fetch(`${server}/api/busUpdatedAt`);
+      const data = await res.json();
+      if (data) syncBusCache(data.busUpdatedAt);
+    };
+
+    fetchBusUpdatedAt();
+  }, []);
 
   return (
     <>

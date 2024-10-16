@@ -62,12 +62,12 @@ const Results = ({ result: { from, to, buses } }) => {
                             </AccordionSummary>
                             <AccordionDetails sx={{ display: 'flex', alignItems: 'center', gap: 2, flexWrap: 'wrap' }}>
                                 {bus.stopages.map((stop, idx) => (
-                                    <>
-                                        <Box className="font-sans" key={stop.id} sx={stop.id === from || stop.id === to ? stopSelected : stopNormal}>
+                                    <div key={stop.id}>
+                                        <Box className="font-sans" sx={stop.id === from || stop.id === to ? stopSelected : stopNormal}>
                                             {stop.en}
                                         </Box>
                                         {idx === bus.stopages.length - 1 ? null : <SyncAltIcon />}
-                                    </>
+                                    </div>
                                 ))}
                             </AccordionDetails>
                         </Accordion>

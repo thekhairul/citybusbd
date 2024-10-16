@@ -30,6 +30,7 @@ body {
   background-attachment: fixed;
     position: relative;
     min-height: 100vh !important;
+    font-family: var(--font-noto-sans), sans-serif;
   }
   
   body::after {
@@ -51,8 +52,10 @@ a {
   text-decoration: none;
 }
 
-.font-sans {
-  font-family: var(--font-pt-sans), sans-serif;
+.font-sans,
+.MuiFilledInput-root,
+.MuiAutocomplete-popper .MuiAutocomplete-option {
+  font-family: var(--font-noto-sans), sans-serif;
 }
 
 .font-cursive {
