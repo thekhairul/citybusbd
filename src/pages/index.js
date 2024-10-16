@@ -15,6 +15,8 @@ export default function Home({ stops }) {
   const [loading, setLoading] = useState(false);
   const [matchedBuses, setMatchedBuses] = useState([]);
   const stopOptions = stops.sort((x, y) => x.en.localeCompare(y.en));
+  const fromStops = stopOptions.filter(stop => stop.id !== toValue?.id);
+  const toStops = stopOptions.filter(stop => stop.id !== fromValue?.id);
   const handleFrom = (event, value) => {
     setFromValue(value);
   };
@@ -75,7 +77,7 @@ export default function Home({ stops }) {
             disablePortal
             sx={{ marginBottom: 2 }}
             value={fromValue}
-            options={stopOptions}
+            options={fromStops}
             onChange={handleFrom}
             renderInput={(params) => <TextField {...params} label="From" variant="filled" sx={{
               // Root class for the input field
@@ -93,7 +95,7 @@ export default function Home({ stops }) {
             disablePortal
             sx={{ marginBottom: 2 }}
             value={toValue}
-            options={stopOptions}
+            options={toStops}
             onChange={handleTo}
             renderInput={(params) => <TextField {...params} label="To" variant="filled" sx={{
               // Root class for the input field

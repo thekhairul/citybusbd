@@ -26,7 +26,8 @@ self.addEventListener('activate', (event) => {
             console.log('Deleting old cache:', cacheName);
             return caches.delete(cacheName);
           }
-        }),
+          return Promise.resolve();
+        }).filter(Boolean),
         // Take control of all clients
         self.clients.claim()
       ]);
