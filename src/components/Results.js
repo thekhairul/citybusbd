@@ -42,7 +42,7 @@ const Results = ({ result: { from, to, buses } }) => {
                         </Tooltip>
                     </Box>
                     <Box className="font-sans" sx={{ bgcolor: '#fff', borderLeft: '1px solid #ccc', paddingY: 4, paddingX: 2, display: 'flex', flexGrow: 1, justifyContent: 'center', alignItems: 'center', gap: 1, fontWeight: 700, fontSize: 20 }}>
-                        <TbCurrencyTaka />
+                        <TbCurrencyTaka fontSize={24}/>
                         <span>{price < 10 ? 10 : price} Tk</span>
                         <Tooltip title="2.42 Tk per km. minimum fair 10 Tk" enterTouchDelay={0} arrow>
                             <InfoOutlinedIcon></InfoOutlinedIcon>
@@ -62,12 +62,12 @@ const Results = ({ result: { from, to, buses } }) => {
                             </AccordionSummary>
                             <AccordionDetails sx={{ display: 'flex', alignItems: 'center', gap: 2, flexWrap: 'wrap' }}>
                                 {bus.stopages.map((stop, idx) => (
-                                    <div key={stop.id}>
+                                    <Box key={stop.id} sx={{ display: 'flex', alignItems: 'center', gap: 2, flexWrap: 'wrap' }}>
                                         <Box className="font-sans" sx={stop.id === from || stop.id === to ? stopSelected : stopNormal}>
                                             {stop.en}
                                         </Box>
                                         {idx === bus.stopages.length - 1 ? null : <SyncAltIcon />}
-                                    </div>
+                                    </Box>
                                 ))}
                             </AccordionDetails>
                         </Accordion>

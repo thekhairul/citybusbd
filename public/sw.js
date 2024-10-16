@@ -5,9 +5,6 @@ const urlsToCache = [
   'citybus.jpg'
 ];
 
-// Create a broadcast channel
-const broadcastChannel = new BroadcastChannel('bus-data-update');
-
 self.addEventListener('install', (event) => {
   console.log('Installing service worker');
   event.waitUntil(
@@ -18,29 +15,24 @@ self.addEventListener('install', (event) => {
   );
 });
 
-// Listen for messages from the Next.js app
-broadcastChannel.onmessage = (event) => {
-  console.log('Received message:', event.data);
-  if (event.data && event.data.type === 'NEW_BUS_DATA_AVAILABLE') {
-    updateBusData();
-  }
-};
-
-async function updateBusData() {
-  console.log('Updating bus data');
-  const cache = await caches.open(CACHE_NAME);
-  try {
-    const busDataResponse = await fetch('/api/bus');
-    await cache.put('/api/bus', busDataResponse.clone());
-    console.log('Bus data updated in cache');
-  } catch (error) {
-    console.error('Error updating bus data:', error);
-  }
-}
+self.addEventListener('activate', (event) => {
+  console.log('Activating new service worker');
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cacheName) => {
+          if (cacheName !== CACHE_NAME) {
+            console.log('Deleting old cache:', cacheName);
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
+});
 
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
-  
   if (url.pathname === '/api/busUpdatedAt') {
     // Network-first strategy for '/api/busUpdatedAt'
     event.respondWith(
