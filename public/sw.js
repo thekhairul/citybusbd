@@ -1,6 +1,8 @@
 const CACHE_NAME = 'citybusbd-cache-v1';
 const urlsToCache = [
   '/',
+  '/offline.html',
+  'citybus.jpg'
 ];
 
 // Create a broadcast channel
@@ -37,22 +39,49 @@ async function updateBusData() {
 }
 
 self.addEventListener('fetch', (event) => {
-  event.respondWith(
-    caches.match(event.request)
-      .then((cachedResponse) => {
-        const fetchPromise = fetch(event.request).then((networkResponse) => {
-          // Update cache with fresh data
+  const url = new URL(event.request.url);
+  
+  if (url.pathname === '/api/busUpdatedAt') {
+    // Network-first strategy for '/api/busUpdatedAt'
+    event.respondWith(
+      fetch(event.request)
+        .then((networkResponse) => {
+          const responseToCache = networkResponse.clone();
           caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, networkResponse.clone());
+            cache.put(event.request, responseToCache);
           });
           return networkResponse;
-        }).catch(() => {
-          // If fetch fails, return cached response or a custom offline page
-          return cachedResponse || caches.match('/offline.html');
-        });
+        })
+        .catch(() => caches.match(event.request))
+    );
+  } else {
+    // Cache-first strategy for other requests
+    event.respondWith(
+      caches.match(event.request, {ignoreSearch: true, nocache: true})
+        .then((cachedResponse) => {
+          if (cachedResponse) {
+            return cachedResponse;
+          }
 
-        // Immediately return cached response if available, otherwise wait for network
-        return cachedResponse || fetchPromise;
-      })
-  );
+          return fetch(event.request).then((networkResponse) => {
+            // Check if we received a valid response
+            if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
+              return networkResponse;
+            }
+
+            // Clone the response before using it to update the cache
+            const responseToCache = networkResponse.clone();
+
+            caches.open(CACHE_NAME).then((cache) => {
+              cache.put(event.request, responseToCache);
+            });
+
+            return networkResponse;
+          }).catch(() => {
+            // If fetch fails, return a custom offline page
+            return caches.match('/offline.html');
+          });
+        })
+    );
+  }
 });
