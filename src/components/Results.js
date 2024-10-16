@@ -44,8 +44,8 @@ const Results = ({ result: { from, to, buses } }) => {
                     </Box>
                 </Box>
                 <Box sx={{ padding: 2, borderTop: '1px solid #ccc' }}>
-                    <p>
-                        <b>Note:</b> This is an approximate distance. The price is calculated as <b>{pricePerKm} Tk per km</b>.
+                    <p className='font-sans'>
+                        <b>Note:</b> Actual distance and price may vary. Government rate is <b>{pricePerKm} Tk per km</b>.
                     </p>
                 </Box>
             </Box>
