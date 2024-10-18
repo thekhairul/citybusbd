@@ -48,7 +48,7 @@ export default function Home({ stops }) {
     return {
       from: fromValue?.id,
       to: toValue?.id,
-      buses: matchedBuses
+      busList: matchedBuses
     }
   }, [matchedBuses]);
 

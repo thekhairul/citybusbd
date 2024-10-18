@@ -17,7 +17,13 @@ const stopSelected = {
 }
 const pricePerKm = 2.42;
 
-const Results = ({ result: { from, to, buses } }) => {
+const Results = ({ result: { from, to, busList } }) => {
+    const buses = busList.map(bus => {
+        const fromStopIndex = bus.stopages.findIndex(stop => stop.id === from);
+        const toStopIndex = bus.stopages.findIndex(stop => stop.id === to);
+        if (fromStopIndex > toStopIndex) return { ...bus, stopages: bus.stopages.reverse() };
+        return bus;
+    });
     const totalDistance = buses.reduce((total, bus) => {
         const [stopage1, stopage2] = bus.stopages.filter(stop => stop.id === from || stop.id === to);
         const distance = Math.abs(stopage1.distanceFromRoot - stopage2.distanceFromRoot);
