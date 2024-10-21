@@ -67,6 +67,10 @@ export default function Home({ stops }) {
       <Head>
         <title>Citybus BD</title>
         <meta name="description" content="Local bus finder app for Dhaka city" />
+        <meta property="og:title" content="Citybus BD" />
+        <meta property="og:description" content="Local bus finder app for Dhaka city" />
+        <meta property="og:image" content="https://citybusbd.com/og.png" />
+        <meta property="og:url" content="https://citybusbd.com" />
       </Head>
       <Container maxWidth="md" sx={{ marginTop: 2, paddingBottom: 10 }}>
         <Box className="font-cursive" sx={{ fontSize: 40, paddingY: 4, marginBottom: 6, textAlign: 'center' }}>
