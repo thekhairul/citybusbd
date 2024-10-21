@@ -1,3 +1,4 @@
+import NoResult from "@/components/NoResult";
 import Results from "@/components/Results";
 import { findBus } from "@/utils/busFinder";
 import { syncBusCache } from "@/utils/pwaCache";
@@ -6,7 +7,6 @@ import { LoadingButton } from '@mui/lab';
 import { Autocomplete, Box, Container, TextField } from "@mui/material";
 import Head from "next/head";
 import { useEffect, useMemo, useState } from "react";
-import { toast } from 'react-toastify';
 import { server } from "~/config";
 
 export default function Home({ stops }) {
@@ -14,6 +14,7 @@ export default function Home({ stops }) {
   const [toValue, setToValue] = useState(null);
   const [loading, setLoading] = useState(false);
   const [matchedBuses, setMatchedBuses] = useState([]);
+  const [noResult, setNoResult] = useState(false);
   const stopOptions = stops.sort((x, y) => x.en.localeCompare(y.en));
   const fromStops = stopOptions.filter(stop => stop.id !== toValue?.id);
   const toStops = stopOptions.filter(stop => stop.id !== fromValue?.id);
@@ -24,6 +25,7 @@ export default function Home({ stops }) {
     setToValue(value);
   };
   const handleSearch = async () => {
+    setNoResult(false);
     if (!fromValue || !toValue) return;
     setLoading(true);
     findBus(fromValue, toValue)
@@ -31,10 +33,8 @@ export default function Home({ stops }) {
         if (buses.length) setMatchedBuses(buses);
         else {
           setMatchedBuses([]);
-          toast.error(`No buses found from ${fromValue.en} to ${toValue.en}`, {
-          position: "bottom-center",
-          autoClose: 6000,
-        });}
+          setNoResult(true);
+        }
       })
       .catch(error => {
         console.error('Error in findBus:', error);
@@ -115,7 +115,7 @@ export default function Home({ stops }) {
           <LoadingButton variant="contained" size='large' startIcon={<SearchOutlinedIcon />} loading={loading} onClick={handleSearch}>Search</LoadingButton>
         </Box>
       
-        {matchedBuses.length ? <Results result={result} /> : null}
+        {matchedBuses.length ? <Results result={result} /> : noResult ? <NoResult from={fromValue?.en} to={toValue?.en} /> : null}
 
         <Box className="font-cursive" sx={{ textAlign: 'center', position: 'absolute', bottom: 10 }}>© <a style={{textDecoration: 'underline'}} href="https://thekhairul.github.io" target="_blank" rel="noreferrer">Khairul Anik</a> - {new Date().getFullYear()}</Box>
       </Container>
