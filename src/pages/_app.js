@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import { registerServiceWorker } from "@/utils/registerSW";
+import { Analytics } from "@vercel/analytics/react";
 import { Capriola, Noto_Sans_Bengali } from "next/font/google";
 import Head from "next/head";
 import { useEffect } from "react";
@@ -35,6 +36,7 @@ export default function App({ Component, pageProps }) {
       <div className={`app ${notoSans.variable} ${capriola.variable}`}>
         <Component {...pageProps} />
         <ToastContainer />
+        <Analytics />
       </div>
     </>
   );
